@@ -123,6 +123,7 @@ function AstralHub:CreateWindow(args)
         HorizontalAlignment = Enum.HorizontalAlignment.Center
     }, tabContainer)
 
+    
     -- Tab functionality
     function window:AddTab(tabData)
         local tabButton = self:CreateElement("TextButton", {
