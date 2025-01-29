@@ -69,6 +69,7 @@ function AstralHub:CreateWindow(args)
         end
     end)
 
+    -- Sidebar
     local sidebar = self:CreateElement("Frame", {
         Size = UDim2.new(0, 200, 1, 0),
         BackgroundColor3 = Color3.fromRGB(40, 40, 40),
@@ -88,6 +89,7 @@ function AstralHub:CreateWindow(args)
         HorizontalAlignment = Enum.HorizontalAlignment.Center
     }, sidebarScroll)
 
+    -- Main content area
     local mainContent = self:CreateElement("Frame", {
         Size = UDim2.new(1, -200, 1, 0),
         Position = UDim2.new(0, 200, 0, 0),
@@ -108,14 +110,24 @@ function AstralHub:CreateWindow(args)
         HorizontalAlignment = Enum.HorizontalAlignment.Center
     }, mainScroll)
 
-    -- Create Tab System
-    window.Tabs = {}  -- Ensure Tabs is defined as part of window
+    -- Tab Management
+    local tabContainer = Instance.new("Frame")
+    tabContainer.Size = UDim2.new(1, 0, 1, 0)
+    tabContainer.Position = UDim2.new(0, 200, 0, 0)
+    tabContainer.Parent = mainContent
 
+    local tabLayout = self:CreateElement("UIGridLayout", {
+        CellSize = UDim2.new(0, 200, 0, 50),
+        FillDirection = Enum.FillDirection.Vertical,
+        VerticalAlignment = Enum.VerticalAlignment.Top,
+        HorizontalAlignment = Enum.HorizontalAlignment.Center
+    }, tabContainer)
+
+    -- Tab functionality
     function window:AddTab(tabData)
-        local tabName = tabData.Name
         local tabButton = self:CreateElement("TextButton", {
             Size = UDim2.new(1, 0, 0, 40),
-            Text = tabName,
+            Text = tabData.Name,
             TextColor3 = Color3.fromRGB(255, 255, 255),
             BackgroundColor3 = Color3.fromRGB(60, 60, 60),
             TextSize = 20,
@@ -126,32 +138,24 @@ function AstralHub:CreateWindow(args)
             CornerRadius = UDim.new(0, 10)
         }, tabButton)
 
+        -- Tab content frame
         local tabFrame = self:CreateElement("Frame", {
             Size = UDim2.new(1, 0, 1, 0),
             BackgroundTransparency = 1,
             Visible = false
-        }, mainContent)
+        }, tabContainer)
 
-        -- Add sections to the tab
-        function tabFrame:AddSection(sectionData)
-            local sectionFrame = self:CreateElement("Frame", {
-                Size = UDim2.new(1, 0, 0, 40),
-                BackgroundColor3 = Color3.fromRGB(55, 55, 55),
-            }, tabFrame)
+        -- Switch between tabs
+        tabButton.MouseButton1Click:Connect(function()
+            for _, frame in pairs(tabContainer:GetChildren()) do
+                if frame:IsA("Frame") then
+                    frame.Visible = false
+                end
+            end
+            tabFrame.Visible = true
+        end)
 
-            local sectionLabel = self:CreateElement("TextLabel", {
-                Size = UDim2.new(1, 0, 0, 40),
-                BackgroundTransparency = 1,
-                Text = sectionData.Name,
-                TextColor3 = Color3.fromRGB(255, 255, 255),
-                TextSize = 18,
-                TextXAlignment = Enum.TextXAlignment.Left
-            }, sectionFrame)
-
-            return sectionFrame
-        end
-
-        -- Add a button to the tab
+        -- Add a button inside the tab
         function tabFrame:AddButton(buttonData)
             local button = self:CreateElement("TextButton", {
                 Size = UDim2.new(1, -20, 0, 50),
@@ -169,15 +173,6 @@ function AstralHub:CreateWindow(args)
             button.MouseButton1Click:Connect(buttonData.Callback)
         end
 
-        -- Show tab when clicked
-        tabButton.MouseButton1Click:Connect(function()
-            for _, tab in pairs(window.Tabs) do
-                tab.Visible = false
-            end
-            tabFrame.Visible = true
-        end)
-
-        window.Tabs[tabName] = tabFrame
         return tabFrame
     end
 
