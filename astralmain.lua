@@ -110,22 +110,12 @@ function AstralHub:CreateWindow(args)
         HorizontalAlignment = Enum.HorizontalAlignment.Center
     }, mainScroll)
 
-    -- Tab Management
-    local tabContainer = Instance.new("Frame")
-    tabContainer.Size = UDim2.new(1, 0, 1, 0)
-    tabContainer.Position = UDim2.new(0, 200, 0, 0)
-    tabContainer.Parent = mainContent
+    -- Tab system (using tables)
+    local tabs = {}
+    local activeTab
 
-    local tabLayout = self:CreateElement("UIGridLayout", {
-        CellSize = UDim2.new(0, 200, 0, 50),
-        FillDirection = Enum.FillDirection.Vertical,
-        VerticalAlignment = Enum.VerticalAlignment.Top,
-        HorizontalAlignment = Enum.HorizontalAlignment.Center
-    }, tabContainer)
-
-    
-    -- Tab functionality
     function window:AddTab(tabData)
+        -- Create the tab button
         local tabButton = self:CreateElement("TextButton", {
             Size = UDim2.new(1, 0, 0, 40),
             Text = tabData.Name,
@@ -139,42 +129,40 @@ function AstralHub:CreateWindow(args)
             CornerRadius = UDim.new(0, 10)
         }, tabButton)
 
-        -- Tab content frame
-        local tabFrame = self:CreateElement("Frame", {
+        -- Create the tab content
+        local tabContent = self:CreateElement("Frame", {
             Size = UDim2.new(1, 0, 1, 0),
             BackgroundTransparency = 1,
             Visible = false
-        }, tabContainer)
+        }, mainContent)
 
-        -- Switch between tabs
+        tabs[tabData.Name] = {Button = tabButton, Content = tabContent}
+
+        -- Switch between tabs when clicked
         tabButton.MouseButton1Click:Connect(function()
-            for _, frame in pairs(tabContainer:GetChildren()) do
-                if frame:IsA("Frame") then
-                    frame.Visible = false
-                end
+            if activeTab then
+                activeTab.Content.Visible = false
             end
-            tabFrame.Visible = true
+            activeTab = tabs[tabData.Name]
+            activeTab.Content.Visible = true
         end)
 
-        -- Add a button inside the tab
-        function tabFrame:AddButton(buttonData)
-            local button = self:CreateElement("TextButton", {
-                Size = UDim2.new(1, -20, 0, 50),
-                Text = buttonData.Name,
-                TextColor3 = Color3.fromRGB(255, 255, 255),
-                BackgroundColor3 = Color3.fromRGB(80, 80, 80),
-                TextSize = 18,
-                BorderColor3 = Color3.fromRGB(20, 20, 20)
-            }, tabFrame)
-
-            local corner = self:CreateElement("UICorner", {
-                CornerRadius = UDim.new(0, 10)
-            }, button)
-
-            button.MouseButton1Click:Connect(buttonData.Callback)
+        -- Add elements to the tab (buttons, sections, etc.)
+        for _, element in ipairs(tabData.Elements) do
+            if element.Type == "Button" then
+                self:CreateElement("TextButton", {
+                    Size = UDim2.new(1, -20, 0, 50),
+                    Text = element.Name,
+                    TextColor3 = Color3.fromRGB(255, 255, 255),
+                    BackgroundColor3 = Color3.fromRGB(80, 80, 80),
+                    TextSize = 18,
+                    BorderColor3 = Color3.fromRGB(20, 20, 20)
+                }, tabContent).MouseButton1Click:Connect(element.Callback)
+            end
+            -- Add more elements types like "Slider", "Toggle", etc., here as necessary
         end
 
-        return tabFrame
+        return tabContent
     end
 
     return window
