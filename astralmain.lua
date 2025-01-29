@@ -113,6 +113,7 @@ function AstralHub:CreateWindow(args)
     -- Tab system (using tables)
     local tabs = {}
     local activeTab
+    
 
     function window:AddTab(tabData)
         -- Create the tab button
