@@ -109,7 +109,7 @@ function AstralHub:CreateWindow(args)
     }, mainScroll)
 
     -- Create Tab System
-    window.Tabs = {}
+    local tabs = {}
 
     function window:AddTab(tabData)
         local tabName = tabData.Name
@@ -171,13 +171,13 @@ function AstralHub:CreateWindow(args)
 
         -- Show tab when clicked
         tabButton.MouseButton1Click:Connect(function()
-            for _, tab in pairs(window.Tabs) do
+            for _, tab in pairs(tabs) do
                 tab.Visible = false
             end
             tabFrame.Visible = true
         end)
 
-        window.Tabs[tabName] = tabFrame
+        tabs[tabName] = tabFrame
         return tabFrame
     end
 
