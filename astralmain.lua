@@ -75,9 +75,9 @@ function AstralHub:CreateWindow(config)
 		tabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		tabButton.TextSize = 18
 		tabButton.BackgroundColor3 = Color3.fromRGB(0.2, 0.2, 0.2)
-		
+
 		local id = tostring(math.random(1,100000))
-		windowobj[2]["Tab-" .. id] = {tabButton,{}}
+		windowobj[2]["Tab-" .. id] = {tabButton, {}}
 		local tabobj = windowobj[2]["Tab-" .. id]
 
 		-- Add functionality to change the content when tab is clicked
@@ -89,7 +89,7 @@ function AstralHub:CreateWindow(config)
 				end
 			end
 			-- Show the buttons for the current tab
-			for _, button in tabobj[2] do
+			for _, button in pairs(tabobj[2]) do
 				button[1].Visible = true
 			end
 		end)
@@ -113,7 +113,7 @@ function AstralHub:CreateWindow(config)
 			end)
 
 			local id = tostring(math.random(1,100000))
-			tabobj[2]["Button-" .. id] = {button,{}}
+			tabobj[2]["Button-" .. id] = {button}
 			local buttonobj = tabobj[2]["Button-" .. id]
 
 			-- Return the button object
