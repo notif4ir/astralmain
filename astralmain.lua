@@ -55,6 +55,7 @@ function AstralHub:CreateWindow(config)
     window.scrollingFrame = scrollingFrame
     window.topbar = topbar
     window.titleLabel = titleLabel
+    window.tabs = {}  -- Store tabs
     
     -- Return the window object to be used by the user
     return window
@@ -87,8 +88,9 @@ function AstralHub:AddTab(window, config)
         end
     end)
     
-    -- Store the tab in the table to allow for adding buttons later
+    -- Store the tab in the window's tab list to allow for adding buttons later
     tab.button = tabButton
+    table.insert(window.tabs, tab)
     
     -- Return the tab object
     return tab
