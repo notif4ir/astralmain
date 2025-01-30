@@ -52,6 +52,10 @@ function AstralHub:CreateWindow(config)
     sidebar.Position = UDim2.new(0, 0, 0, 50)
     sidebar.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 
+    -- UIListLayout for sidebar
+    local sidebarLayout = Instance.new("UIListLayout", sidebar)
+    sidebarLayout.Padding = UDim.new(0, 5) -- Optional: adjust padding between buttons
+
     -- Content area setup
     contentArea.Size = UDim2.new(1, -150, 1, -50)
     contentArea.Position = UDim2.new(0, 150, 0, 50)
@@ -61,6 +65,10 @@ function AstralHub:CreateWindow(config)
     scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
     scrollingFrame.BackgroundTransparency = 1
     scrollingFrame.ScrollBarThickness = 10
+
+    -- UIListLayout for scrolling frame
+    local contentLayout = Instance.new("UIListLayout", scrollingFrame)
+    contentLayout.Padding = UDim.new(0, 5) -- Optional: adjust padding between buttons
 
     -- Close and Minimize button functionality
     closeButton.MouseButton1Click:Connect(function()
@@ -137,7 +145,6 @@ function AstralHub:CreateWindow(config)
     function windowobj:AddTab(config)
         local tabButton = Instance.new("TextButton", window.sidebar)
         tabButton.Size = UDim2.new(0, 150, 0, 40)
-        tabButton.Position = UDim2.new(0, 0, 0, (#window.sidebar:GetChildren() - 1) * 40)
         tabButton.Text = config.Name or "New Tab"
         tabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabButton.TextSize = 18
@@ -161,7 +168,6 @@ function AstralHub:CreateWindow(config)
         function tabobj:AddButton(config)
             local button = Instance.new("TextButton", window.scrollingFrame)
             button.Size = UDim2.new(1, 0, 0, 40)
-            button.Position = UDim2.new(0, 0, 0, (#window.scrollingFrame:GetChildren() - 1) * 50)
             button.Text = config.Name or "New Button"
             button.TextColor3 = Color3.fromRGB(255, 255, 255)
             button.TextSize = 18
