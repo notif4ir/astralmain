@@ -117,11 +117,11 @@ function AstralHub:CreateWindow(config)
 			local buttonobj = tabobj[2]["Button-" .. id]
 
 			-- Return the button object
-			return button
+			return buttonobj
 		end
 
 		-- Return the tab object
-		return tab
+		return tabobj
 	end
 
 	return windowobj
