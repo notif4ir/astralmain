@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 131 | Scripts: 15 | Modules: 0 | Tags: 0
+-- Instances: 140 | Scripts: 16 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ASTRALHUBFORSAKEN
@@ -281,6 +281,7 @@ G2L["1b"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1
 G2L["1c"] = Instance.new("Frame", G2L["1b"]);
+G2L["1c"]["Visible"] = false;
 G2L["1c"]["BorderSizePixel"] = 0;
 G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1c"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -770,7 +771,6 @@ G2L["53"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2
 G2L["54"] = Instance.new("Frame", G2L["1b"]);
-G2L["54"]["Visible"] = false;
 G2L["54"]["BorderSizePixel"] = 0;
 G2L["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["54"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -963,130 +963,130 @@ G2L["66"]["Text"] = [[Next Killer Highlight]];
 G2L["66"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3
-G2L["67"] = Instance.new("Frame", G2L["1b"]);
-G2L["67"]["Visible"] = false;
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers
+G2L["67"] = Instance.new("Frame", G2L["54"]);
 G2L["67"]["BorderSizePixel"] = 0;
 G2L["67"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["67"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["67"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["67"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
 G2L["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["67"]["Name"] = [[3]];
-G2L["67"]["BackgroundTransparency"] = 1;
+G2L["67"]["Name"] = [[DBarriers]];
+G2L["67"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle
+G2L["68"] = Instance.new("CanvasGroup", G2L["67"]);
+G2L["68"]["ZIndex"] = 2;
+G2L["68"]["BorderSizePixel"] = 0;
+G2L["68"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["68"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["68"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["68"]["Name"] = [[toggle]];
+G2L["68"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton
+G2L["69"] = Instance.new("Frame", G2L["68"]);
+G2L["69"]["BorderSizePixel"] = 0;
+G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["69"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["69"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["69"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["69"]["Name"] = [[SliderButton]];
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton.UICorner
+G2L["6a"] = Instance.new("UICorner", G2L["69"]);
+G2L["6a"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIStroke
+G2L["6b"] = Instance.new("UIStroke", G2L["68"]);
+G2L["6b"]["Transparency"] = 0.75;
+G2L["6b"]["Thickness"] = 2;
+G2L["6b"]["Color"] = Color3.fromRGB(54, 54, 54);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UICorner
+G2L["6c"] = Instance.new("UICorner", G2L["68"]);
+G2L["6c"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIAspectRatioConstraint
+G2L["6d"] = Instance.new("UIAspectRatioConstraint", G2L["68"]);
+G2L["6d"]["AspectRatio"] = 2;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript
+G2L["6e"] = Instance.new("LocalScript", G2L["68"]);
+
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.TextLabel
+G2L["6f"] = Instance.new("TextLabel", G2L["67"]);
+G2L["6f"]["TextWrapped"] = true;
+G2L["6f"]["BorderSizePixel"] = 0;
+G2L["6f"]["TextSize"] = 14;
+G2L["6f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["6f"]["TextScaled"] = true;
+G2L["6f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6f"]["BackgroundTransparency"] = 1;
+G2L["6f"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["6f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6f"]["Text"] = [[Remove Barriers]];
+G2L["6f"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3
+G2L["70"] = Instance.new("Frame", G2L["1b"]);
+G2L["70"]["Visible"] = false;
+G2L["70"]["BorderSizePixel"] = 0;
+G2L["70"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["70"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["70"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["70"]["Name"] = [[3]];
+G2L["70"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3.UIListLayout
-G2L["68"] = Instance.new("UIListLayout", G2L["67"]);
-G2L["68"]["Padding"] = UDim.new(0, 2);
-G2L["68"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["71"] = Instance.new("UIListLayout", G2L["70"]);
+G2L["71"]["Padding"] = UDim.new(0, 2);
+G2L["71"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings
-G2L["69"] = Instance.new("Frame", G2L["1b"]);
-G2L["69"]["Visible"] = false;
-G2L["69"]["BorderSizePixel"] = 0;
-G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["69"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["69"]["Name"] = [[Settings]];
-G2L["69"]["BackgroundTransparency"] = 1;
+G2L["72"] = Instance.new("Frame", G2L["1b"]);
+G2L["72"]["Visible"] = false;
+G2L["72"]["BorderSizePixel"] = 0;
+G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["72"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["72"]["Name"] = [[Settings]];
+G2L["72"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.UIListLayout
-G2L["6a"] = Instance.new("UIListLayout", G2L["69"]);
-G2L["6a"]["Padding"] = UDim.new(0, 2);
-G2L["6a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["73"] = Instance.new("UIListLayout", G2L["72"]);
+G2L["73"]["Padding"] = UDim.new(0, 2);
+G2L["73"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims
-G2L["6b"] = Instance.new("Frame", G2L["69"]);
-G2L["6b"]["BorderSizePixel"] = 0;
-G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6b"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["6b"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
-G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["Name"] = [[TAnims]];
-G2L["6b"]["BackgroundTransparency"] = 0.9;
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle
-G2L["6c"] = Instance.new("CanvasGroup", G2L["6b"]);
-G2L["6c"]["ZIndex"] = 2;
-G2L["6c"]["BorderSizePixel"] = 0;
-G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["6c"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["6c"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6c"]["Name"] = [[toggle]];
-G2L["6c"]["BackgroundTransparency"] = 0.5;
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton
-G2L["6d"] = Instance.new("Frame", G2L["6c"]);
-G2L["6d"]["BorderSizePixel"] = 0;
-G2L["6d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["6d"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["6d"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["6d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6d"]["Name"] = [[SliderButton]];
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton.UICorner
-G2L["6e"] = Instance.new("UICorner", G2L["6d"]);
-G2L["6e"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIStroke
-G2L["6f"] = Instance.new("UIStroke", G2L["6c"]);
-G2L["6f"]["Transparency"] = 0.75;
-G2L["6f"]["Thickness"] = 2;
-G2L["6f"]["Color"] = Color3.fromRGB(54, 54, 54);
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UICorner
-G2L["70"] = Instance.new("UICorner", G2L["6c"]);
-G2L["70"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIAspectRatioConstraint
-G2L["71"] = Instance.new("UIAspectRatioConstraint", G2L["6c"]);
-G2L["71"]["AspectRatio"] = 2;
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
-G2L["72"] = Instance.new("LocalScript", G2L["6c"]);
-
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.TextLabel
-G2L["73"] = Instance.new("TextLabel", G2L["6b"]);
-G2L["73"]["TextWrapped"] = true;
-G2L["73"]["BorderSizePixel"] = 0;
-G2L["73"]["TextSize"] = 14;
-G2L["73"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["73"]["TextScaled"] = true;
-G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["73"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["73"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["73"]["BackgroundTransparency"] = 1;
-G2L["73"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["73"]["Text"] = [[No Tab Anims]];
-G2L["73"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
-
-
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles
-G2L["74"] = Instance.new("Frame", G2L["69"]);
+G2L["74"] = Instance.new("Frame", G2L["72"]);
 G2L["74"]["BorderSizePixel"] = 0;
 G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["74"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
 G2L["74"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
 G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["74"]["Name"] = [[SaveToggles]];
+G2L["74"]["Name"] = [[TAnims]];
 G2L["74"]["BackgroundTransparency"] = 0.9;
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle
 G2L["75"] = Instance.new("CanvasGroup", G2L["74"]);
 G2L["75"]["ZIndex"] = 2;
 G2L["75"]["BorderSizePixel"] = 0;
@@ -1098,7 +1098,7 @@ G2L["75"]["Name"] = [[toggle]];
 G2L["75"]["BackgroundTransparency"] = 0.5;
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton
 G2L["76"] = Instance.new("Frame", G2L["75"]);
 G2L["76"]["BorderSizePixel"] = 0;
 G2L["76"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1109,34 +1109,34 @@ G2L["76"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["76"]["Name"] = [[SliderButton]];
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton.UICorner
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton.UICorner
 G2L["77"] = Instance.new("UICorner", G2L["76"]);
 G2L["77"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIStroke
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIStroke
 G2L["78"] = Instance.new("UIStroke", G2L["75"]);
 G2L["78"]["Transparency"] = 0.75;
 G2L["78"]["Thickness"] = 2;
 G2L["78"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UICorner
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UICorner
 G2L["79"] = Instance.new("UICorner", G2L["75"]);
 G2L["79"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIAspectRatioConstraint
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIAspectRatioConstraint
 G2L["7a"] = Instance.new("UIAspectRatioConstraint", G2L["75"]);
 G2L["7a"]["AspectRatio"] = 2;
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
 G2L["7b"] = Instance.new("LocalScript", G2L["75"]);
 
 
 
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.TextLabel
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.TextLabel
 G2L["7c"] = Instance.new("TextLabel", G2L["74"]);
 G2L["7c"]["TextWrapped"] = true;
 G2L["7c"]["BorderSizePixel"] = 0;
@@ -1149,55 +1149,133 @@ G2L["7c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7c"]["BackgroundTransparency"] = 1;
 G2L["7c"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
 G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Text"] = [[Save Toggles]];
+G2L["7c"]["Text"] = [[No Tab Anims]];
 G2L["7c"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles
+G2L["7d"] = Instance.new("Frame", G2L["72"]);
+G2L["7d"]["BorderSizePixel"] = 0;
+G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7d"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["7d"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
+G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7d"]["Name"] = [[SaveToggles]];
+G2L["7d"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle
+G2L["7e"] = Instance.new("CanvasGroup", G2L["7d"]);
+G2L["7e"]["ZIndex"] = 2;
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["7e"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["7e"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Name"] = [[toggle]];
+G2L["7e"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton
+G2L["7f"] = Instance.new("Frame", G2L["7e"]);
+G2L["7f"]["BorderSizePixel"] = 0;
+G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7f"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["7f"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["7f"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7f"]["Name"] = [[SliderButton]];
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton.UICorner
+G2L["80"] = Instance.new("UICorner", G2L["7f"]);
+G2L["80"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIStroke
+G2L["81"] = Instance.new("UIStroke", G2L["7e"]);
+G2L["81"]["Transparency"] = 0.75;
+G2L["81"]["Thickness"] = 2;
+G2L["81"]["Color"] = Color3.fromRGB(54, 54, 54);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UICorner
+G2L["82"] = Instance.new("UICorner", G2L["7e"]);
+G2L["82"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIAspectRatioConstraint
+G2L["83"] = Instance.new("UIAspectRatioConstraint", G2L["7e"]);
+G2L["83"]["AspectRatio"] = 2;
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
+G2L["84"] = Instance.new("LocalScript", G2L["7e"]);
+
+
+
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.TextLabel
+G2L["85"] = Instance.new("TextLabel", G2L["7d"]);
+G2L["85"]["TextWrapped"] = true;
+G2L["85"]["BorderSizePixel"] = 0;
+G2L["85"]["TextSize"] = 14;
+G2L["85"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["85"]["TextScaled"] = true;
+G2L["85"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["85"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["85"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["85"]["BackgroundTransparency"] = 1;
+G2L["85"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["85"]["Text"] = [[Save Toggles]];
+G2L["85"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+
+
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.UICorner
-G2L["7d"] = Instance.new("UICorner", G2L["1a"]);
-G2L["7d"]["CornerRadius"] = UDim.new(0.033, 0);
+G2L["86"] = Instance.new("UICorner", G2L["1a"]);
+G2L["86"]["CornerRadius"] = UDim.new(0.033, 0);
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.UIStroke
-G2L["7e"] = Instance.new("UIStroke", G2L["1a"]);
-G2L["7e"]["Transparency"] = 0.75;
-G2L["7e"]["Thickness"] = 2;
-G2L["7e"]["Color"] = Color3.fromRGB(54, 54, 54);
-G2L["7e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["87"] = Instance.new("UIStroke", G2L["1a"]);
+G2L["87"]["Transparency"] = 0.75;
+G2L["87"]["Thickness"] = 2;
+G2L["87"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["87"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.main
-G2L["7f"] = Instance.new("LocalScript", G2L["2"]);
-G2L["7f"]["Name"] = [[main]];
+G2L["88"] = Instance.new("LocalScript", G2L["2"]);
+G2L["88"]["Name"] = [[main]];
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.drag
-G2L["80"] = Instance.new("LocalScript", G2L["2"]);
-G2L["80"]["Name"] = [[drag]];
+G2L["89"] = Instance.new("LocalScript", G2L["2"]);
+G2L["89"]["Name"] = [[drag]];
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.ImageLabel
-G2L["81"] = Instance.new("ImageLabel", G2L["2"]);
-G2L["81"]["ZIndex"] = 0;
-G2L["81"]["BorderSizePixel"] = 0;
-G2L["81"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["81"]["ImageTransparency"] = 0.25;
-G2L["81"]["Image"] = [[rbxassetid://112982629327743]];
-G2L["81"]["Size"] = UDim2.new(1.54754, 0, 1.29597, 0);
-G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["81"]["BackgroundTransparency"] = 1;
-G2L["81"]["Rotation"] = 25;
-G2L["81"]["Position"] = UDim2.new(-0.33287, 0, -0.18506, 0);
+G2L["8a"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["8a"]["ZIndex"] = 0;
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8a"]["ImageTransparency"] = 0.25;
+G2L["8a"]["Image"] = [[rbxassetid://112982629327743]];
+G2L["8a"]["Size"] = UDim2.new(1.54754, 0, 1.29597, 0);
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["BackgroundTransparency"] = 1;
+G2L["8a"]["Rotation"] = 25;
+G2L["8a"]["Position"] = UDim2.new(-0.33287, 0, -0.18506, 0);
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.tabs
-G2L["82"] = Instance.new("LocalScript", G2L["2"]);
-G2L["82"]["Name"] = [[tabs]];
+G2L["8b"] = Instance.new("LocalScript", G2L["2"]);
+G2L["8b"]["Name"] = [[tabs]];
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.savedata
-G2L["83"] = Instance.new("LocalScript", G2L["2"]);
-G2L["83"]["Name"] = [[savedata]];
+G2L["8c"] = Instance.new("LocalScript", G2L["2"]);
+G2L["8c"]["Name"] = [[savedata]];
 
 
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.OSpeed.toggle.LocalScript
@@ -1680,9 +1758,9 @@ local script = G2L["65"];
 	apply(enabled)
 end;
 task.spawn(C_65);
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
-local function C_72()
-local script = G2L["72"];
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript
+local function C_6e()
+local script = G2L["6e"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1736,8 +1814,8 @@ local script = G2L["72"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_72);
--- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
+task.spawn(C_6e);
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
 local function C_7b()
 local script = G2L["7b"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
@@ -1794,9 +1872,66 @@ local script = G2L["7b"];
 	apply(enabled)
 end;
 task.spawn(C_7b);
+-- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
+local function C_84()
+local script = G2L["84"];
+	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
+	
+	local button = script.Parent.SliderButton
+	local enabled = false
+	local last = nil
+	
+	local on = UDim2.new(0.745, 0, 0.5, 0)
+	local onColor = Color3.fromRGB(255, 255, 255)
+	local off = UDim2.new(0.245, 0, 0.5, 0)
+	local offColor = Color3.fromRGB(63, 63, 63)
+	
+	local function apply(state)
+		if state then
+			game:GetService("TweenService"):Create(button, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = on}):Play()
+			game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = onColor}):Play()
+		else
+			game:GetService("TweenService"):Create(button, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Position = off}):Play()
+			game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {BackgroundColor3 = offColor}):Play()
+		end
+	end
+	
+	local function updateGlobal()
+		_G.VortexHub[script.Parent.Parent.Name] = enabled
+	end
+	
+	script.Parent.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			enabled = not enabled
+			updateGlobal()
+			apply(enabled)
+		end
+	end)
+	
+	spawn(function()
+		while wait() do
+			local current = _G.VortexHub[script.Parent.Parent.Name]
+			if current ~= last then
+				last = current
+				enabled = current
+				apply(enabled)
+			end
+		end
+	end)
+	
+	if not _G.VortexHub[script.Parent.Parent.Name] then
+		updateGlobal()
+	else
+		if _G.VortexHub["SaveToggles"] == false then
+			updateGlobal()
+		end
+	end
+	apply(enabled)
+end;
+task.spawn(C_84);
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.main
-local function C_7f()
-local script = G2L["7f"];
+local function C_88()
+local script = G2L["88"];
 	_G.VortexHub = _G.VortexHub or {}
 	
 	repeat wait() until game:IsLoaded()
@@ -2161,6 +2296,20 @@ local script = G2L["7f"];
 		disableGenerators()
 	end)
 	
+	task.spawn(function()
+		while wait() do
+			for i,v in workspace.Map:GetDescendants() do
+				if v:IsA("BasePart") and (v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly") then
+					if _G.VortexHub.DBarriers and _G.VortexHub.DBarriers == true then
+						v.CanCollide=false
+					else
+						v.CanCollide=true
+					end
+				end
+			end
+		end
+	end)
+	
 	do
 		local originals = {}
 	
@@ -2247,10 +2396,10 @@ local script = G2L["7f"];
 		end)
 	end
 end;
-task.spawn(C_7f);
+task.spawn(C_88);
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.drag
-local function C_80()
-local script = G2L["80"];
+local function C_89()
+local script = G2L["89"];
 	local frame = script.Parent
 	local topbar = frame.TopBar
 	local uis = game:GetService("UserInputService")
@@ -2312,10 +2461,10 @@ local script = G2L["80"];
 		frame.Position = UDim2.new(s.X, 0, s.Y, 0)
 	end)
 end;
-task.spawn(C_80);
+task.spawn(C_89);
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.tabs
-local function C_82()
-local script = G2L["82"];
+local function C_8b()
+local script = G2L["8b"];
 	local ogsize = script.Parent.Size
 	script.Parent.Size = UDim2.new()
 	
@@ -2371,10 +2520,10 @@ local script = G2L["82"];
 		end
 	end
 end;
-task.spawn(C_82);
+task.spawn(C_8b);
 -- StarterGui.ASTRALHUBFORSAKEN.CanvasGroup.savedata
-local function C_83()
-local script = G2L["83"];
+local function C_8c()
+local script = G2L["8c"];
 	if game["Run Service"]:IsStudio() then return end
 	
 	local folder = "VHUB_DATA"
@@ -2438,6 +2587,6 @@ local script = G2L["83"];
 		saveData()
 	until _G.VortexHub.Loaded == false
 end;
-task.spawn(C_83);
+task.spawn(C_8c);
 
 return G2L["1"], require;
