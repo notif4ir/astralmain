@@ -501,6 +501,7 @@ local script = G2L["18"];
 		key.TextLabel.Text = "Valid — expires in " .. info
 		suspendUntil = tick() + SUSPEND_DURATION
 		saveKey(entered)
+		task.wait(2)
 		onKeyAccepted()
 	end)
 	
@@ -533,6 +534,7 @@ local script = G2L["18"];
 		end
 		key.TextLabel.Text = "Loaded key — expires in " .. secondsToYMDHMS(remain)
 		suspendUntil = tick() + SUSPEND_DURATION
+		task.wait(2)
 		onKeyAccepted()
 	end)
 end;
