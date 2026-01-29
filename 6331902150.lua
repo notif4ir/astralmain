@@ -2306,18 +2306,34 @@ local script = G2L["8a"];
 		disableGenerators()
 	end)
 	
-	task.spawn(function()
-		while wait(5) do
-			for i,v in workspace.Map:GetDescendants() do
-				if v:IsA("BasePart") and (v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly" or v.Transparency == 1) then
-					if _G.VortexHub.DBarriers and _G.VortexHub.DBarriers == true then
-						v.CanCollide=false
-					else
-						v.CanCollide=true
-					end
+	local function updateBarriers()
+		for _,v in ipairs(workspace.Map.Ingame:GetDescendants()) do
+			if v:IsA("BasePart") then
+				if v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly" or v.Transparency >= 0.9 then
+					v.CanCollide = not (_G.VortexHub.DBarriers == true)
 				end
-				wait()
 			end
+		end
+	end
+	
+	task.spawn(function()
+		updateBarriers()
+	
+		workspace.Map.Ingame.DescendantAdded:Connect(function(v)
+			if v:IsA("BasePart") then
+				if v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly" or v.Transparency >= 0.9 then
+					v.CanCollide = not (_G.VortexHub.DBarriers == true)
+				end
+			end
+		end)
+	
+		local last
+		while true do
+			if last ~= _G.VortexHub.DBarriers then
+				last = _G.VortexHub.DBarriers
+				updateBarriers()
+			end
+			task.wait(0.2)
 		end
 	end)
 	
