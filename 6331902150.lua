@@ -2113,11 +2113,42 @@ local script = G2L["8a"];
 		return model:FindFirstChild("Head") or model:FindFirstChildWhichIsA("BasePart")
 	end
 	
+	local disabledHighlights = {}
+	
+	local function disableOtherHighlights(model)
+		if not model then return end
+		disabledHighlights[model] = disabledHighlights[model] or {}
+		for _,desc in ipairs(model:GetDescendants()) do
+			if desc:IsA("Highlight") and desc.Name ~= "ESP_Highlight" and desc.Name ~= "GEN_ESP_Highlight" then
+				local found = false
+				for _,rec in ipairs(disabledHighlights[model]) do
+					if rec.inst == desc then found = true; break end
+				end
+				if not found then
+					table.insert(disabledHighlights[model], {inst = desc, prev = desc.Enabled})
+					pcall(function() desc.Enabled = false end)
+				end
+			end
+		end
+	end
+	
+	local function restoreHighlights(model)
+		local list = disabledHighlights[model]
+		if not list then return end
+		for _,rec in ipairs(list) do
+			if rec.inst and rec.inst.Parent then
+				pcall(function() rec.inst.Enabled = rec.prev end)
+			end
+		end
+		disabledHighlights[model] = nil
+	end
+	
 	local function clearESP(model)
 		local h = model:FindFirstChild("ESP_Highlight")
 		if h then h:Destroy() end
 		local b = model:FindFirstChild("ESP_Billboard")
 		if b then b:Destroy() end
+		restoreHighlights(model)
 	end
 	
 	local function makeESP(model, color)
@@ -2133,7 +2164,10 @@ local script = G2L["8a"];
 		h.Parent = model
 	
 		local head = getHead(model)
-		if not head then return end
+		if not head then
+			disableOtherHighlights(model)
+			return
+		end
 	
 		local gui = Instance.new("BillboardGui")
 		gui.Name = "ESP_Billboard"
@@ -2180,6 +2214,7 @@ local script = G2L["8a"];
 		update()
 	
 		model.AttributeChanged:Connect(update)
+		disableOtherHighlights(model)
 	end
 	
 	local function watch(folder, color)
