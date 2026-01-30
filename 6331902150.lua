@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 142 | Scripts: 16 | Modules: 0 | Tags: 0
+-- Instances: 155 | Scripts: 16 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN
@@ -350,692 +350,677 @@ G2L["24"] = Instance.new("LocalScript", G2L["1e"]);
 
 
 
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.OSpeed.toggle.LocalScript.ToggleSfx
+G2L["25"] = Instance.new("Sound", G2L["24"]);
+G2L["25"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["25"]["SoundId"] = [[rbxassetid://139800881181209]];
+
+
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.OSpeed.TextLabel
-G2L["25"] = Instance.new("TextLabel", G2L["1d"]);
-G2L["25"]["TextWrapped"] = true;
-G2L["25"]["BorderSizePixel"] = 0;
-G2L["25"]["TextSize"] = 14;
-G2L["25"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["25"]["TextScaled"] = true;
-G2L["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["25"]["BackgroundTransparency"] = 1;
-G2L["25"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["25"]["Text"] = [[Precise Movement]];
-G2L["25"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["26"] = Instance.new("TextLabel", G2L["1d"]);
+G2L["26"]["TextWrapped"] = true;
+G2L["26"]["BorderSizePixel"] = 0;
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["26"]["TextScaled"] = true;
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["BackgroundTransparency"] = 1;
+G2L["26"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["26"]["Text"] = [[Precise Movement]];
+G2L["26"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.UIListLayout
-G2L["26"] = Instance.new("UIListLayout", G2L["1c"]);
-G2L["26"]["Padding"] = UDim.new(0, 2);
-G2L["26"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["27"] = Instance.new("UIListLayout", G2L["1c"]);
+G2L["27"]["Padding"] = UDim.new(0, 2);
+G2L["27"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump
-G2L["27"] = Instance.new("Frame", G2L["1c"]);
-G2L["27"]["BorderSizePixel"] = 0;
-G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["27"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["27"]["Position"] = UDim2.new(0, 0, 0, 0);
-G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["27"]["Name"] = [[AJump]];
-G2L["27"]["LayoutOrder"] = 1;
-G2L["27"]["BackgroundTransparency"] = 0.9;
+G2L["28"] = Instance.new("Frame", G2L["1c"]);
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["28"]["Position"] = UDim2.new(0, 0, 0, 0);
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Name"] = [[AJump]];
+G2L["28"]["LayoutOrder"] = 1;
+G2L["28"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle
-G2L["28"] = Instance.new("CanvasGroup", G2L["27"]);
-G2L["28"]["ZIndex"] = 2;
-G2L["28"]["BorderSizePixel"] = 0;
-G2L["28"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["28"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["28"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["28"]["Name"] = [[toggle]];
-G2L["28"]["BackgroundTransparency"] = 0.5;
+G2L["29"] = Instance.new("CanvasGroup", G2L["28"]);
+G2L["29"]["ZIndex"] = 2;
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["29"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["29"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Name"] = [[toggle]];
+G2L["29"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.SliderButton
-G2L["29"] = Instance.new("Frame", G2L["28"]);
-G2L["29"]["BorderSizePixel"] = 0;
-G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["29"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["29"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["29"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["Name"] = [[SliderButton]];
+G2L["2a"] = Instance.new("Frame", G2L["29"]);
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["2a"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["2a"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.SliderButton.UICorner
-G2L["2a"] = Instance.new("UICorner", G2L["29"]);
-G2L["2a"]["CornerRadius"] = UDim.new(1, 0);
+G2L["2b"] = Instance.new("UICorner", G2L["2a"]);
+G2L["2b"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.UIStroke
-G2L["2b"] = Instance.new("UIStroke", G2L["28"]);
-G2L["2b"]["Transparency"] = 0.75;
-G2L["2b"]["Thickness"] = 2;
-G2L["2b"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["2c"] = Instance.new("UIStroke", G2L["29"]);
+G2L["2c"]["Transparency"] = 0.75;
+G2L["2c"]["Thickness"] = 2;
+G2L["2c"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.UICorner
-G2L["2c"] = Instance.new("UICorner", G2L["28"]);
-G2L["2c"]["CornerRadius"] = UDim.new(1, 0);
+G2L["2d"] = Instance.new("UICorner", G2L["29"]);
+G2L["2d"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.UIAspectRatioConstraint
-G2L["2d"] = Instance.new("UIAspectRatioConstraint", G2L["28"]);
-G2L["2d"]["AspectRatio"] = 2;
+G2L["2e"] = Instance.new("UIAspectRatioConstraint", G2L["29"]);
+G2L["2e"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.LocalScript
-G2L["2e"] = Instance.new("LocalScript", G2L["28"]);
+G2L["2f"] = Instance.new("LocalScript", G2L["29"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.LocalScript.ToggleSfx
+G2L["30"] = Instance.new("Sound", G2L["2f"]);
+G2L["30"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["30"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.TextLabel
-G2L["2f"] = Instance.new("TextLabel", G2L["27"]);
-G2L["2f"]["TextWrapped"] = true;
-G2L["2f"]["BorderSizePixel"] = 0;
-G2L["2f"]["TextSize"] = 14;
-G2L["2f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["2f"]["TextScaled"] = true;
-G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2f"]["BackgroundTransparency"] = 1;
-G2L["2f"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Text"] = [[Allow Jumping]];
-G2L["2f"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["31"] = Instance.new("TextLabel", G2L["28"]);
+G2L["31"]["TextWrapped"] = true;
+G2L["31"]["BorderSizePixel"] = 0;
+G2L["31"]["TextSize"] = 14;
+G2L["31"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["31"]["TextScaled"] = true;
+G2L["31"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["31"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["31"]["BackgroundTransparency"] = 1;
+G2L["31"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Text"] = [[Allow Jumping]];
+G2L["31"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims
-G2L["30"] = Instance.new("Frame", G2L["1c"]);
-G2L["30"]["BorderSizePixel"] = 0;
-G2L["30"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["30"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["30"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["30"]["Name"] = [[NAnims]];
-G2L["30"]["LayoutOrder"] = 99;
-G2L["30"]["BackgroundTransparency"] = 0.9;
+G2L["32"] = Instance.new("Frame", G2L["1c"]);
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["32"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Name"] = [[NAnims]];
+G2L["32"]["LayoutOrder"] = 99;
+G2L["32"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle
-G2L["31"] = Instance.new("CanvasGroup", G2L["30"]);
-G2L["31"]["ZIndex"] = 2;
-G2L["31"]["BorderSizePixel"] = 0;
-G2L["31"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["31"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["31"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["31"]["Name"] = [[toggle]];
-G2L["31"]["BackgroundTransparency"] = 0.5;
+G2L["33"] = Instance.new("CanvasGroup", G2L["32"]);
+G2L["33"]["ZIndex"] = 2;
+G2L["33"]["BorderSizePixel"] = 0;
+G2L["33"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["33"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["33"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["33"]["Name"] = [[toggle]];
+G2L["33"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.SliderButton
-G2L["32"] = Instance.new("Frame", G2L["31"]);
-G2L["32"]["BorderSizePixel"] = 0;
-G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["32"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["32"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["32"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["32"]["Name"] = [[SliderButton]];
+G2L["34"] = Instance.new("Frame", G2L["33"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["34"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["34"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.SliderButton.UICorner
-G2L["33"] = Instance.new("UICorner", G2L["32"]);
-G2L["33"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.UIStroke
-G2L["34"] = Instance.new("UIStroke", G2L["31"]);
-G2L["34"]["Transparency"] = 0.75;
-G2L["34"]["Thickness"] = 2;
-G2L["34"]["Color"] = Color3.fromRGB(54, 54, 54);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.UICorner
-G2L["35"] = Instance.new("UICorner", G2L["31"]);
+G2L["35"] = Instance.new("UICorner", G2L["34"]);
 G2L["35"]["CornerRadius"] = UDim.new(1, 0);
 
 
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.UIStroke
+G2L["36"] = Instance.new("UIStroke", G2L["33"]);
+G2L["36"]["Transparency"] = 0.75;
+G2L["36"]["Thickness"] = 2;
+G2L["36"]["Color"] = Color3.fromRGB(54, 54, 54);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.UICorner
+G2L["37"] = Instance.new("UICorner", G2L["33"]);
+G2L["37"]["CornerRadius"] = UDim.new(1, 0);
+
+
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.UIAspectRatioConstraint
-G2L["36"] = Instance.new("UIAspectRatioConstraint", G2L["31"]);
-G2L["36"]["AspectRatio"] = 2;
+G2L["38"] = Instance.new("UIAspectRatioConstraint", G2L["33"]);
+G2L["38"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.LocalScript
-G2L["37"] = Instance.new("LocalScript", G2L["31"]);
+G2L["39"] = Instance.new("LocalScript", G2L["33"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.LocalScript.ToggleSfx
+G2L["3a"] = Instance.new("Sound", G2L["39"]);
+G2L["3a"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["3a"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.TextLabel
-G2L["38"] = Instance.new("TextLabel", G2L["30"]);
-G2L["38"]["TextWrapped"] = true;
-G2L["38"]["BorderSizePixel"] = 0;
-G2L["38"]["TextSize"] = 14;
-G2L["38"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["38"]["TextScaled"] = true;
-G2L["38"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["38"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["38"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["38"]["BackgroundTransparency"] = 1;
-G2L["38"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["38"]["Text"] = [[No Animations]];
-G2L["38"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["3b"] = Instance.new("TextLabel", G2L["32"]);
+G2L["3b"]["TextWrapped"] = true;
+G2L["3b"]["BorderSizePixel"] = 0;
+G2L["3b"]["TextSize"] = 14;
+G2L["3b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["3b"]["TextScaled"] = true;
+G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3b"]["BackgroundTransparency"] = 1;
+G2L["3b"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3b"]["Text"] = [[No Animations]];
+G2L["3b"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP
-G2L["39"] = Instance.new("Frame", G2L["1c"]);
-G2L["39"]["BorderSizePixel"] = 0;
-G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["39"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["39"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Name"] = [[KILLER_ESP]];
-G2L["39"]["LayoutOrder"] = 2;
-G2L["39"]["BackgroundTransparency"] = 0.9;
+G2L["3c"] = Instance.new("Frame", G2L["1c"]);
+G2L["3c"]["BorderSizePixel"] = 0;
+G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["3c"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
+G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3c"]["Name"] = [[KILLER_ESP]];
+G2L["3c"]["LayoutOrder"] = 2;
+G2L["3c"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle
-G2L["3a"] = Instance.new("CanvasGroup", G2L["39"]);
-G2L["3a"]["ZIndex"] = 2;
-G2L["3a"]["BorderSizePixel"] = 0;
-G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["3a"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["3a"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["Name"] = [[toggle]];
-G2L["3a"]["BackgroundTransparency"] = 0.5;
+G2L["3d"] = Instance.new("CanvasGroup", G2L["3c"]);
+G2L["3d"]["ZIndex"] = 2;
+G2L["3d"]["BorderSizePixel"] = 0;
+G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["3d"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["3d"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Name"] = [[toggle]];
+G2L["3d"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.SliderButton
-G2L["3b"] = Instance.new("Frame", G2L["3a"]);
-G2L["3b"]["BorderSizePixel"] = 0;
-G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["3b"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["3b"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3b"]["Name"] = [[SliderButton]];
+G2L["3e"] = Instance.new("Frame", G2L["3d"]);
+G2L["3e"]["BorderSizePixel"] = 0;
+G2L["3e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["3e"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["3e"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["3e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3e"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.SliderButton.UICorner
-G2L["3c"] = Instance.new("UICorner", G2L["3b"]);
-G2L["3c"]["CornerRadius"] = UDim.new(1, 0);
+G2L["3f"] = Instance.new("UICorner", G2L["3e"]);
+G2L["3f"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.UIStroke
-G2L["3d"] = Instance.new("UIStroke", G2L["3a"]);
-G2L["3d"]["Transparency"] = 0.75;
-G2L["3d"]["Thickness"] = 2;
-G2L["3d"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["40"] = Instance.new("UIStroke", G2L["3d"]);
+G2L["40"]["Transparency"] = 0.75;
+G2L["40"]["Thickness"] = 2;
+G2L["40"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.UICorner
-G2L["3e"] = Instance.new("UICorner", G2L["3a"]);
-G2L["3e"]["CornerRadius"] = UDim.new(1, 0);
+G2L["41"] = Instance.new("UICorner", G2L["3d"]);
+G2L["41"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.UIAspectRatioConstraint
-G2L["3f"] = Instance.new("UIAspectRatioConstraint", G2L["3a"]);
-G2L["3f"]["AspectRatio"] = 2;
+G2L["42"] = Instance.new("UIAspectRatioConstraint", G2L["3d"]);
+G2L["42"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.LocalScript
-G2L["40"] = Instance.new("LocalScript", G2L["3a"]);
+G2L["43"] = Instance.new("LocalScript", G2L["3d"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.LocalScript.ToggleSfx
+G2L["44"] = Instance.new("Sound", G2L["43"]);
+G2L["44"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["44"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.TextLabel
-G2L["41"] = Instance.new("TextLabel", G2L["39"]);
-G2L["41"]["TextWrapped"] = true;
-G2L["41"]["BorderSizePixel"] = 0;
-G2L["41"]["TextSize"] = 14;
-G2L["41"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["41"]["TextScaled"] = true;
-G2L["41"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["41"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["41"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["41"]["BackgroundTransparency"] = 1;
-G2L["41"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["41"]["Text"] = [[Killer ESP]];
-G2L["41"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["45"] = Instance.new("TextLabel", G2L["3c"]);
+G2L["45"]["TextWrapped"] = true;
+G2L["45"]["BorderSizePixel"] = 0;
+G2L["45"]["TextSize"] = 14;
+G2L["45"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["45"]["TextScaled"] = true;
+G2L["45"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["45"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["45"]["BackgroundTransparency"] = 1;
+G2L["45"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["Text"] = [[Killer ESP]];
+G2L["45"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP
-G2L["42"] = Instance.new("Frame", G2L["1c"]);
-G2L["42"]["BorderSizePixel"] = 0;
-G2L["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["42"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["42"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["42"]["Name"] = [[SURVIVOR_ESP]];
-G2L["42"]["LayoutOrder"] = 3;
-G2L["42"]["BackgroundTransparency"] = 0.9;
+G2L["46"] = Instance.new("Frame", G2L["1c"]);
+G2L["46"]["BorderSizePixel"] = 0;
+G2L["46"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["46"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["46"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
+G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["46"]["Name"] = [[SURVIVOR_ESP]];
+G2L["46"]["LayoutOrder"] = 3;
+G2L["46"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle
-G2L["43"] = Instance.new("CanvasGroup", G2L["42"]);
-G2L["43"]["ZIndex"] = 2;
-G2L["43"]["BorderSizePixel"] = 0;
-G2L["43"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["43"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["43"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["43"]["Name"] = [[toggle]];
-G2L["43"]["BackgroundTransparency"] = 0.5;
+G2L["47"] = Instance.new("CanvasGroup", G2L["46"]);
+G2L["47"]["ZIndex"] = 2;
+G2L["47"]["BorderSizePixel"] = 0;
+G2L["47"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["47"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["47"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["47"]["Name"] = [[toggle]];
+G2L["47"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.SliderButton
-G2L["44"] = Instance.new("Frame", G2L["43"]);
-G2L["44"]["BorderSizePixel"] = 0;
-G2L["44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["44"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["44"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["44"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["44"]["Name"] = [[SliderButton]];
+G2L["48"] = Instance.new("Frame", G2L["47"]);
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["48"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["48"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["48"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.SliderButton.UICorner
-G2L["45"] = Instance.new("UICorner", G2L["44"]);
-G2L["45"]["CornerRadius"] = UDim.new(1, 0);
+G2L["49"] = Instance.new("UICorner", G2L["48"]);
+G2L["49"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.UIStroke
-G2L["46"] = Instance.new("UIStroke", G2L["43"]);
-G2L["46"]["Transparency"] = 0.75;
-G2L["46"]["Thickness"] = 2;
-G2L["46"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["4a"] = Instance.new("UIStroke", G2L["47"]);
+G2L["4a"]["Transparency"] = 0.75;
+G2L["4a"]["Thickness"] = 2;
+G2L["4a"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.UICorner
-G2L["47"] = Instance.new("UICorner", G2L["43"]);
-G2L["47"]["CornerRadius"] = UDim.new(1, 0);
+G2L["4b"] = Instance.new("UICorner", G2L["47"]);
+G2L["4b"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.UIAspectRatioConstraint
-G2L["48"] = Instance.new("UIAspectRatioConstraint", G2L["43"]);
-G2L["48"]["AspectRatio"] = 2;
+G2L["4c"] = Instance.new("UIAspectRatioConstraint", G2L["47"]);
+G2L["4c"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.LocalScript
-G2L["49"] = Instance.new("LocalScript", G2L["43"]);
+G2L["4d"] = Instance.new("LocalScript", G2L["47"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.LocalScript.ToggleSfx
+G2L["4e"] = Instance.new("Sound", G2L["4d"]);
+G2L["4e"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["4e"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.TextLabel
-G2L["4a"] = Instance.new("TextLabel", G2L["42"]);
-G2L["4a"]["TextWrapped"] = true;
-G2L["4a"]["BorderSizePixel"] = 0;
-G2L["4a"]["TextSize"] = 14;
-G2L["4a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["4a"]["TextScaled"] = true;
-G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4a"]["BackgroundTransparency"] = 1;
-G2L["4a"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["4a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4a"]["Text"] = [[Survivor ESP]];
-G2L["4a"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["4f"] = Instance.new("TextLabel", G2L["46"]);
+G2L["4f"]["TextWrapped"] = true;
+G2L["4f"]["BorderSizePixel"] = 0;
+G2L["4f"]["TextSize"] = 14;
+G2L["4f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["4f"]["TextScaled"] = true;
+G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["BackgroundTransparency"] = 1;
+G2L["4f"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4f"]["Text"] = [[Survivor ESP]];
+G2L["4f"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP
-G2L["4b"] = Instance.new("Frame", G2L["1c"]);
-G2L["4b"]["BorderSizePixel"] = 0;
-G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4b"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["4b"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Name"] = [[GEN_ESP]];
-G2L["4b"]["LayoutOrder"] = 4;
-G2L["4b"]["BackgroundTransparency"] = 0.9;
+G2L["50"] = Instance.new("Frame", G2L["1c"]);
+G2L["50"]["BorderSizePixel"] = 0;
+G2L["50"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["50"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
+G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["Name"] = [[GEN_ESP]];
+G2L["50"]["LayoutOrder"] = 4;
+G2L["50"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle
-G2L["4c"] = Instance.new("CanvasGroup", G2L["4b"]);
-G2L["4c"]["ZIndex"] = 2;
-G2L["4c"]["BorderSizePixel"] = 0;
-G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["4c"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["4c"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4c"]["Name"] = [[toggle]];
-G2L["4c"]["BackgroundTransparency"] = 0.5;
+G2L["51"] = Instance.new("CanvasGroup", G2L["50"]);
+G2L["51"]["ZIndex"] = 2;
+G2L["51"]["BorderSizePixel"] = 0;
+G2L["51"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["51"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["51"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["51"]["Name"] = [[toggle]];
+G2L["51"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.SliderButton
-G2L["4d"] = Instance.new("Frame", G2L["4c"]);
-G2L["4d"]["BorderSizePixel"] = 0;
-G2L["4d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["4d"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["4d"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["4d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4d"]["Name"] = [[SliderButton]];
+G2L["52"] = Instance.new("Frame", G2L["51"]);
+G2L["52"]["BorderSizePixel"] = 0;
+G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["52"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["52"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["52"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["52"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.SliderButton.UICorner
-G2L["4e"] = Instance.new("UICorner", G2L["4d"]);
-G2L["4e"]["CornerRadius"] = UDim.new(1, 0);
+G2L["53"] = Instance.new("UICorner", G2L["52"]);
+G2L["53"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.UIStroke
-G2L["4f"] = Instance.new("UIStroke", G2L["4c"]);
-G2L["4f"]["Transparency"] = 0.75;
-G2L["4f"]["Thickness"] = 2;
-G2L["4f"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["54"] = Instance.new("UIStroke", G2L["51"]);
+G2L["54"]["Transparency"] = 0.75;
+G2L["54"]["Thickness"] = 2;
+G2L["54"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.UICorner
-G2L["50"] = Instance.new("UICorner", G2L["4c"]);
-G2L["50"]["CornerRadius"] = UDim.new(1, 0);
+G2L["55"] = Instance.new("UICorner", G2L["51"]);
+G2L["55"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.UIAspectRatioConstraint
-G2L["51"] = Instance.new("UIAspectRatioConstraint", G2L["4c"]);
-G2L["51"]["AspectRatio"] = 2;
+G2L["56"] = Instance.new("UIAspectRatioConstraint", G2L["51"]);
+G2L["56"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.LocalScript
-G2L["52"] = Instance.new("LocalScript", G2L["4c"]);
+G2L["57"] = Instance.new("LocalScript", G2L["51"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.LocalScript.ToggleSfx
+G2L["58"] = Instance.new("Sound", G2L["57"]);
+G2L["58"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["58"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.TextLabel
-G2L["53"] = Instance.new("TextLabel", G2L["4b"]);
-G2L["53"]["TextWrapped"] = true;
-G2L["53"]["BorderSizePixel"] = 0;
-G2L["53"]["TextSize"] = 14;
-G2L["53"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["53"]["TextScaled"] = true;
-G2L["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["53"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["53"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["53"]["BackgroundTransparency"] = 1;
-G2L["53"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["53"]["Text"] = [[Generator ESP]];
-G2L["53"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["59"] = Instance.new("TextLabel", G2L["50"]);
+G2L["59"]["TextWrapped"] = true;
+G2L["59"]["BorderSizePixel"] = 0;
+G2L["59"]["TextSize"] = 14;
+G2L["59"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["59"]["TextScaled"] = true;
+G2L["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["59"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["59"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["59"]["BackgroundTransparency"] = 1;
+G2L["59"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["59"]["Text"] = [[Generator ESP]];
+G2L["59"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2
-G2L["54"] = Instance.new("Frame", G2L["1b"]);
-G2L["54"]["Visible"] = false;
-G2L["54"]["BorderSizePixel"] = 0;
-G2L["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["54"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["54"]["Name"] = [[2]];
-G2L["54"]["BackgroundTransparency"] = 1;
+G2L["5a"] = Instance.new("Frame", G2L["1b"]);
+G2L["5a"]["Visible"] = false;
+G2L["5a"]["BorderSizePixel"] = 0;
+G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5a"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5a"]["Name"] = [[2]];
+G2L["5a"]["BackgroundTransparency"] = 1;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.UIListLayout
-G2L["55"] = Instance.new("UIListLayout", G2L["54"]);
-G2L["55"]["Padding"] = UDim.new(0, 2);
-G2L["55"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["5b"] = Instance.new("UIListLayout", G2L["5a"]);
+G2L["5b"]["Padding"] = UDim.new(0, 2);
+G2L["5b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost
-G2L["56"] = Instance.new("Frame", G2L["54"]);
-G2L["56"]["BorderSizePixel"] = 0;
-G2L["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["56"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["56"]["Position"] = UDim2.new(0, 0, 0.34514, 0);
-G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["56"]["Name"] = [[FPSBoost]];
-G2L["56"]["LayoutOrder"] = 99;
-G2L["56"]["BackgroundTransparency"] = 0.9;
+G2L["5c"] = Instance.new("Frame", G2L["5a"]);
+G2L["5c"]["BorderSizePixel"] = 0;
+G2L["5c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5c"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["5c"]["Position"] = UDim2.new(0, 0, 0.34514, 0);
+G2L["5c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5c"]["Name"] = [[FPSBoost]];
+G2L["5c"]["LayoutOrder"] = 99;
+G2L["5c"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextLabel
-G2L["57"] = Instance.new("TextLabel", G2L["56"]);
-G2L["57"]["TextWrapped"] = true;
-G2L["57"]["BorderSizePixel"] = 0;
-G2L["57"]["TextSize"] = 14;
-G2L["57"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["57"]["TextScaled"] = true;
-G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["57"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["57"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["57"]["BackgroundTransparency"] = 1;
-G2L["57"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["Text"] = [[FPS Boost (Optimization)]];
-G2L["57"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton
-G2L["58"] = Instance.new("TextButton", G2L["56"]);
-G2L["58"]["TextWrapped"] = true;
-G2L["58"]["BorderSizePixel"] = 0;
-G2L["58"]["TextSize"] = 14;
-G2L["58"]["TextScaled"] = true;
-G2L["58"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["58"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["58"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["58"]["BackgroundTransparency"] = 0.5;
-G2L["58"]["Size"] = UDim2.new(0.2056, 0, 0.64964, 0);
-G2L["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["58"]["Text"] = [[Boost]];
-G2L["58"]["Position"] = UDim2.new(0.76955, 0, 0.15555, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.LocalScript
-G2L["59"] = Instance.new("LocalScript", G2L["58"]);
-
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.UICorner
-G2L["5a"] = Instance.new("UICorner", G2L["58"]);
-G2L["5a"]["CornerRadius"] = UDim.new(0.25, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer
-G2L["5b"] = Instance.new("Frame", G2L["54"]);
-G2L["5b"]["BorderSizePixel"] = 0;
-G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5b"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["5b"]["Position"] = UDim2.new(0, 0, 0.34514, 0);
-G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5b"]["Name"] = [[ForceTimer]];
-G2L["5b"]["LayoutOrder"] = 1;
-G2L["5b"]["BackgroundTransparency"] = 0.9;
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextLabel
-G2L["5c"] = Instance.new("TextLabel", G2L["5b"]);
-G2L["5c"]["TextWrapped"] = true;
-G2L["5c"]["BorderSizePixel"] = 0;
-G2L["5c"]["TextSize"] = 14;
-G2L["5c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["5c"]["TextScaled"] = true;
-G2L["5c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5c"]["BackgroundTransparency"] = 1;
-G2L["5c"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["5c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5c"]["Text"] = [[Force Show Timer]];
-G2L["5c"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton
-G2L["5d"] = Instance.new("TextButton", G2L["5b"]);
+G2L["5d"] = Instance.new("TextLabel", G2L["5c"]);
 G2L["5d"]["TextWrapped"] = true;
 G2L["5d"]["BorderSizePixel"] = 0;
 G2L["5d"]["TextSize"] = 14;
+G2L["5d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["5d"]["TextScaled"] = true;
-G2L["5d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["5d"]["BackgroundTransparency"] = 0.5;
-G2L["5d"]["Size"] = UDim2.new(0.2056, 0, 0.64964, 0);
+G2L["5d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5d"]["BackgroundTransparency"] = 1;
+G2L["5d"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
 G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5d"]["Text"] = [[Activate]];
-G2L["5d"]["Position"] = UDim2.new(0.76955, 0, 0.15555, 0);
+G2L["5d"]["Text"] = [[FPS Boost (Optimization)]];
+G2L["5d"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton
+G2L["5e"] = Instance.new("TextButton", G2L["5c"]);
+G2L["5e"]["TextWrapped"] = true;
+G2L["5e"]["BorderSizePixel"] = 0;
+G2L["5e"]["TextSize"] = 14;
+G2L["5e"]["TextScaled"] = true;
+G2L["5e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["5e"]["BackgroundTransparency"] = 0.5;
+G2L["5e"]["Size"] = UDim2.new(0.2056, 0, 0.64964, 0);
+G2L["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["Text"] = [[Boost]];
+G2L["5e"]["Position"] = UDim2.new(0.76955, 0, 0.15555, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.LocalScript
+G2L["5f"] = Instance.new("LocalScript", G2L["5e"]);
+
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.LocalScript.ClickSfx
+G2L["60"] = Instance.new("Sound", G2L["5f"]);
+G2L["60"]["Name"] = [[ClickSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["60"]["SoundId"] = [[rbxassetid://88442833509532]];
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.UICorner
+G2L["61"] = Instance.new("UICorner", G2L["5e"]);
+G2L["61"]["CornerRadius"] = UDim.new(0.25, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer
+G2L["62"] = Instance.new("Frame", G2L["5a"]);
+G2L["62"]["BorderSizePixel"] = 0;
+G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["62"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["62"]["Position"] = UDim2.new(0, 0, 0.34514, 0);
+G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Name"] = [[ForceTimer]];
+G2L["62"]["LayoutOrder"] = 1;
+G2L["62"]["BackgroundTransparency"] = 0.9;
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextLabel
+G2L["63"] = Instance.new("TextLabel", G2L["62"]);
+G2L["63"]["TextWrapped"] = true;
+G2L["63"]["BorderSizePixel"] = 0;
+G2L["63"]["TextSize"] = 14;
+G2L["63"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["63"]["TextScaled"] = true;
+G2L["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["63"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["63"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["63"]["BackgroundTransparency"] = 1;
+G2L["63"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["63"]["Text"] = [[Force Show Timer]];
+G2L["63"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton
+G2L["64"] = Instance.new("TextButton", G2L["62"]);
+G2L["64"]["TextWrapped"] = true;
+G2L["64"]["BorderSizePixel"] = 0;
+G2L["64"]["TextSize"] = 14;
+G2L["64"]["TextScaled"] = true;
+G2L["64"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["64"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["64"]["BackgroundTransparency"] = 0.5;
+G2L["64"]["Size"] = UDim2.new(0.2056, 0, 0.64964, 0);
+G2L["64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Text"] = [[Activate]];
+G2L["64"]["Position"] = UDim2.new(0.76955, 0, 0.15555, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton.LocalScript
-G2L["5e"] = Instance.new("LocalScript", G2L["5d"]);
+G2L["65"] = Instance.new("LocalScript", G2L["64"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton.LocalScript.ClickSfx
+G2L["66"] = Instance.new("Sound", G2L["65"]);
+G2L["66"]["Name"] = [[ClickSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["66"]["SoundId"] = [[rbxassetid://88442833509532]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton.UICorner
-G2L["5f"] = Instance.new("UICorner", G2L["5d"]);
-G2L["5f"]["CornerRadius"] = UDim.new(0.25, 0);
+G2L["67"] = Instance.new("UICorner", G2L["64"]);
+G2L["67"]["CornerRadius"] = UDim.new(0.25, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice
-G2L["60"] = Instance.new("Frame", G2L["54"]);
-G2L["60"]["BorderSizePixel"] = 0;
-G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["60"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["60"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["60"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["60"]["Name"] = [[HMalice]];
-G2L["60"]["BackgroundTransparency"] = 0.9;
+G2L["68"] = Instance.new("Frame", G2L["5a"]);
+G2L["68"]["BorderSizePixel"] = 0;
+G2L["68"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["68"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["68"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
+G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["68"]["Name"] = [[HMalice]];
+G2L["68"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle
-G2L["61"] = Instance.new("CanvasGroup", G2L["60"]);
-G2L["61"]["ZIndex"] = 2;
-G2L["61"]["BorderSizePixel"] = 0;
-G2L["61"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["61"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["61"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["61"]["Name"] = [[toggle]];
-G2L["61"]["BackgroundTransparency"] = 0.5;
+G2L["69"] = Instance.new("CanvasGroup", G2L["68"]);
+G2L["69"]["ZIndex"] = 2;
+G2L["69"]["BorderSizePixel"] = 0;
+G2L["69"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["69"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["69"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["69"]["Name"] = [[toggle]];
+G2L["69"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.SliderButton
-G2L["62"] = Instance.new("Frame", G2L["61"]);
-G2L["62"]["BorderSizePixel"] = 0;
-G2L["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["62"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["62"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["62"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["62"]["Name"] = [[SliderButton]];
+G2L["6a"] = Instance.new("Frame", G2L["69"]);
+G2L["6a"]["BorderSizePixel"] = 0;
+G2L["6a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6a"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["6a"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["6a"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6a"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.SliderButton.UICorner
-G2L["63"] = Instance.new("UICorner", G2L["62"]);
-G2L["63"]["CornerRadius"] = UDim.new(1, 0);
+G2L["6b"] = Instance.new("UICorner", G2L["6a"]);
+G2L["6b"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.UIStroke
-G2L["64"] = Instance.new("UIStroke", G2L["61"]);
-G2L["64"]["Transparency"] = 0.75;
-G2L["64"]["Thickness"] = 2;
-G2L["64"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["6c"] = Instance.new("UIStroke", G2L["69"]);
+G2L["6c"]["Transparency"] = 0.75;
+G2L["6c"]["Thickness"] = 2;
+G2L["6c"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.UICorner
-G2L["65"] = Instance.new("UICorner", G2L["61"]);
-G2L["65"]["CornerRadius"] = UDim.new(1, 0);
+G2L["6d"] = Instance.new("UICorner", G2L["69"]);
+G2L["6d"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.UIAspectRatioConstraint
-G2L["66"] = Instance.new("UIAspectRatioConstraint", G2L["61"]);
-G2L["66"]["AspectRatio"] = 2;
+G2L["6e"] = Instance.new("UIAspectRatioConstraint", G2L["69"]);
+G2L["6e"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.LocalScript
-G2L["67"] = Instance.new("LocalScript", G2L["61"]);
+G2L["6f"] = Instance.new("LocalScript", G2L["69"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.LocalScript.ToggleSfx
+G2L["70"] = Instance.new("Sound", G2L["6f"]);
+G2L["70"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["70"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.TextLabel
-G2L["68"] = Instance.new("TextLabel", G2L["60"]);
-G2L["68"]["TextWrapped"] = true;
-G2L["68"]["BorderSizePixel"] = 0;
-G2L["68"]["TextSize"] = 14;
-G2L["68"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["68"]["TextScaled"] = true;
-G2L["68"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["68"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["68"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["68"]["BackgroundTransparency"] = 1;
-G2L["68"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["68"]["Text"] = [[Next Killer Highlight]];
-G2L["68"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers
-G2L["69"] = Instance.new("Frame", G2L["54"]);
-G2L["69"]["BorderSizePixel"] = 0;
-G2L["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["69"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["69"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
-G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["69"]["Name"] = [[DBarriers]];
-G2L["69"]["BackgroundTransparency"] = 0.9;
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle
-G2L["6a"] = Instance.new("CanvasGroup", G2L["69"]);
-G2L["6a"]["ZIndex"] = 2;
-G2L["6a"]["BorderSizePixel"] = 0;
-G2L["6a"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["6a"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["6a"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6a"]["Name"] = [[toggle]];
-G2L["6a"]["BackgroundTransparency"] = 0.5;
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton
-G2L["6b"] = Instance.new("Frame", G2L["6a"]);
-G2L["6b"]["BorderSizePixel"] = 0;
-G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["6b"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["6b"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["Name"] = [[SliderButton]];
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton.UICorner
-G2L["6c"] = Instance.new("UICorner", G2L["6b"]);
-G2L["6c"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIStroke
-G2L["6d"] = Instance.new("UIStroke", G2L["6a"]);
-G2L["6d"]["Transparency"] = 0.75;
-G2L["6d"]["Thickness"] = 2;
-G2L["6d"]["Color"] = Color3.fromRGB(54, 54, 54);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UICorner
-G2L["6e"] = Instance.new("UICorner", G2L["6a"]);
-G2L["6e"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIAspectRatioConstraint
-G2L["6f"] = Instance.new("UIAspectRatioConstraint", G2L["6a"]);
-G2L["6f"]["AspectRatio"] = 2;
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript
-G2L["70"] = Instance.new("LocalScript", G2L["6a"]);
-
-
-
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.TextLabel
-G2L["71"] = Instance.new("TextLabel", G2L["69"]);
+G2L["71"] = Instance.new("TextLabel", G2L["68"]);
 G2L["71"]["TextWrapped"] = true;
 G2L["71"]["BorderSizePixel"] = 0;
 G2L["71"]["TextSize"] = 14;
@@ -1047,245 +1032,351 @@ G2L["71"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["71"]["BackgroundTransparency"] = 1;
 G2L["71"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
 G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["Text"] = [[Remove Barriers]];
+G2L["71"]["Text"] = [[Next Killer Highlight]];
 G2L["71"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
--- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3
-G2L["72"] = Instance.new("Frame", G2L["1b"]);
-G2L["72"]["Visible"] = false;
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers
+G2L["72"] = Instance.new("Frame", G2L["5a"]);
 G2L["72"]["BorderSizePixel"] = 0;
 G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["72"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["72"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["72"]["Position"] = UDim2.new(0, 0, 0.17257, 0);
 G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["72"]["Name"] = [[3]];
-G2L["72"]["BackgroundTransparency"] = 1;
+G2L["72"]["Name"] = [[DBarriers]];
+G2L["72"]["BackgroundTransparency"] = 0.9;
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle
+G2L["73"] = Instance.new("CanvasGroup", G2L["72"]);
+G2L["73"]["ZIndex"] = 2;
+G2L["73"]["BorderSizePixel"] = 0;
+G2L["73"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["73"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["73"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["73"]["Name"] = [[toggle]];
+G2L["73"]["BackgroundTransparency"] = 0.5;
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton
+G2L["74"] = Instance.new("Frame", G2L["73"]);
+G2L["74"]["BorderSizePixel"] = 0;
+G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["74"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["74"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["74"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["74"]["Name"] = [[SliderButton]];
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.SliderButton.UICorner
+G2L["75"] = Instance.new("UICorner", G2L["74"]);
+G2L["75"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIStroke
+G2L["76"] = Instance.new("UIStroke", G2L["73"]);
+G2L["76"]["Transparency"] = 0.75;
+G2L["76"]["Thickness"] = 2;
+G2L["76"]["Color"] = Color3.fromRGB(54, 54, 54);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UICorner
+G2L["77"] = Instance.new("UICorner", G2L["73"]);
+G2L["77"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.UIAspectRatioConstraint
+G2L["78"] = Instance.new("UIAspectRatioConstraint", G2L["73"]);
+G2L["78"]["AspectRatio"] = 2;
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript
+G2L["79"] = Instance.new("LocalScript", G2L["73"]);
+
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript.ToggleSfx
+G2L["7a"] = Instance.new("Sound", G2L["79"]);
+G2L["7a"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["7a"]["SoundId"] = [[rbxassetid://139800881181209]];
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.TextLabel
+G2L["7b"] = Instance.new("TextLabel", G2L["72"]);
+G2L["7b"]["TextWrapped"] = true;
+G2L["7b"]["BorderSizePixel"] = 0;
+G2L["7b"]["TextSize"] = 14;
+G2L["7b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["7b"]["TextScaled"] = true;
+G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7b"]["BackgroundTransparency"] = 1;
+G2L["7b"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7b"]["Text"] = [[Remove Barriers]];
+G2L["7b"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3
+G2L["7c"] = Instance.new("Frame", G2L["1b"]);
+G2L["7c"]["Visible"] = false;
+G2L["7c"]["BorderSizePixel"] = 0;
+G2L["7c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7c"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7c"]["Name"] = [[3]];
+G2L["7c"]["BackgroundTransparency"] = 1;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.3.UIListLayout
-G2L["73"] = Instance.new("UIListLayout", G2L["72"]);
-G2L["73"]["Padding"] = UDim.new(0, 2);
-G2L["73"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["7d"] = Instance.new("UIListLayout", G2L["7c"]);
+G2L["7d"]["Padding"] = UDim.new(0, 2);
+G2L["7d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings
-G2L["74"] = Instance.new("Frame", G2L["1b"]);
-G2L["74"]["Visible"] = false;
-G2L["74"]["BorderSizePixel"] = 0;
-G2L["74"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["74"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["74"]["Name"] = [[Settings]];
-G2L["74"]["BackgroundTransparency"] = 1;
+G2L["7e"] = Instance.new("Frame", G2L["1b"]);
+G2L["7e"]["Visible"] = false;
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Name"] = [[Settings]];
+G2L["7e"]["BackgroundTransparency"] = 1;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.UIListLayout
-G2L["75"] = Instance.new("UIListLayout", G2L["74"]);
-G2L["75"]["Padding"] = UDim.new(0, 2);
-G2L["75"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["7f"] = Instance.new("UIListLayout", G2L["7e"]);
+G2L["7f"]["Padding"] = UDim.new(0, 2);
+G2L["7f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims
-G2L["76"] = Instance.new("Frame", G2L["74"]);
-G2L["76"]["BorderSizePixel"] = 0;
-G2L["76"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["76"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["76"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
-G2L["76"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["76"]["Name"] = [[TAnims]];
-G2L["76"]["BackgroundTransparency"] = 0.9;
+G2L["80"] = Instance.new("Frame", G2L["7e"]);
+G2L["80"]["BorderSizePixel"] = 0;
+G2L["80"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["80"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
+G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["80"]["Name"] = [[TAnims]];
+G2L["80"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle
-G2L["77"] = Instance.new("CanvasGroup", G2L["76"]);
-G2L["77"]["ZIndex"] = 2;
-G2L["77"]["BorderSizePixel"] = 0;
-G2L["77"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["77"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["77"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["77"]["Name"] = [[toggle]];
-G2L["77"]["BackgroundTransparency"] = 0.5;
+G2L["81"] = Instance.new("CanvasGroup", G2L["80"]);
+G2L["81"]["ZIndex"] = 2;
+G2L["81"]["BorderSizePixel"] = 0;
+G2L["81"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["81"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["81"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["81"]["Name"] = [[toggle]];
+G2L["81"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton
-G2L["78"] = Instance.new("Frame", G2L["77"]);
-G2L["78"]["BorderSizePixel"] = 0;
-G2L["78"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["78"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["78"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["78"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["78"]["Name"] = [[SliderButton]];
+G2L["82"] = Instance.new("Frame", G2L["81"]);
+G2L["82"]["BorderSizePixel"] = 0;
+G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["82"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["82"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["82"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["82"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.SliderButton.UICorner
-G2L["79"] = Instance.new("UICorner", G2L["78"]);
-G2L["79"]["CornerRadius"] = UDim.new(1, 0);
+G2L["83"] = Instance.new("UICorner", G2L["82"]);
+G2L["83"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIStroke
-G2L["7a"] = Instance.new("UIStroke", G2L["77"]);
-G2L["7a"]["Transparency"] = 0.75;
-G2L["7a"]["Thickness"] = 2;
-G2L["7a"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["84"] = Instance.new("UIStroke", G2L["81"]);
+G2L["84"]["Transparency"] = 0.75;
+G2L["84"]["Thickness"] = 2;
+G2L["84"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UICorner
-G2L["7b"] = Instance.new("UICorner", G2L["77"]);
-G2L["7b"]["CornerRadius"] = UDim.new(1, 0);
+G2L["85"] = Instance.new("UICorner", G2L["81"]);
+G2L["85"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.UIAspectRatioConstraint
-G2L["7c"] = Instance.new("UIAspectRatioConstraint", G2L["77"]);
-G2L["7c"]["AspectRatio"] = 2;
+G2L["86"] = Instance.new("UIAspectRatioConstraint", G2L["81"]);
+G2L["86"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
-G2L["7d"] = Instance.new("LocalScript", G2L["77"]);
+G2L["87"] = Instance.new("LocalScript", G2L["81"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript.ToggleSfx
+G2L["88"] = Instance.new("Sound", G2L["87"]);
+G2L["88"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["88"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.TextLabel
-G2L["7e"] = Instance.new("TextLabel", G2L["76"]);
-G2L["7e"]["TextWrapped"] = true;
-G2L["7e"]["BorderSizePixel"] = 0;
-G2L["7e"]["TextSize"] = 14;
-G2L["7e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["7e"]["TextScaled"] = true;
-G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7e"]["BackgroundTransparency"] = 1;
-G2L["7e"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7e"]["Text"] = [[No Tab Anims]];
-G2L["7e"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["89"] = Instance.new("TextLabel", G2L["80"]);
+G2L["89"]["TextWrapped"] = true;
+G2L["89"]["BorderSizePixel"] = 0;
+G2L["89"]["TextSize"] = 14;
+G2L["89"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["89"]["TextScaled"] = true;
+G2L["89"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["89"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["89"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["89"]["BackgroundTransparency"] = 1;
+G2L["89"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["89"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["89"]["Text"] = [[No Tab Anims]];
+G2L["89"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles
-G2L["7f"] = Instance.new("Frame", G2L["74"]);
-G2L["7f"]["BorderSizePixel"] = 0;
-G2L["7f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7f"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
-G2L["7f"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
-G2L["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7f"]["Name"] = [[SaveToggles]];
-G2L["7f"]["BackgroundTransparency"] = 0.9;
+G2L["8a"] = Instance.new("Frame", G2L["7e"]);
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8a"]["Size"] = UDim2.new(0.97931, 0, 0.05401, 0);
+G2L["8a"]["Position"] = UDim2.new(0, 0, 0.11505, 0);
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Name"] = [[SaveToggles]];
+G2L["8a"]["BackgroundTransparency"] = 0.9;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle
-G2L["80"] = Instance.new("CanvasGroup", G2L["7f"]);
-G2L["80"]["ZIndex"] = 2;
-G2L["80"]["BorderSizePixel"] = 0;
-G2L["80"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
-G2L["80"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
-G2L["80"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
-G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["80"]["Name"] = [[toggle]];
-G2L["80"]["BackgroundTransparency"] = 0.5;
+G2L["8b"] = Instance.new("CanvasGroup", G2L["8a"]);
+G2L["8b"]["ZIndex"] = 2;
+G2L["8b"]["BorderSizePixel"] = 0;
+G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(58, 58, 58);
+G2L["8b"]["Size"] = UDim2.new(0.15948, 0, 0.65544, 0);
+G2L["8b"]["Position"] = UDim2.new(0.84228, 0, 0.16678, 0);
+G2L["8b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8b"]["Name"] = [[toggle]];
+G2L["8b"]["BackgroundTransparency"] = 0.5;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton
-G2L["81"] = Instance.new("Frame", G2L["80"]);
-G2L["81"]["BorderSizePixel"] = 0;
-G2L["81"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["81"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["81"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["81"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
-G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["81"]["Name"] = [[SliderButton]];
+G2L["8c"] = Instance.new("Frame", G2L["8b"]);
+G2L["8c"]["BorderSizePixel"] = 0;
+G2L["8c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["8c"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["8c"]["Position"] = UDim2.new(0.23466, 0, 0.5, 0);
+G2L["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8c"]["Name"] = [[SliderButton]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.SliderButton.UICorner
-G2L["82"] = Instance.new("UICorner", G2L["81"]);
-G2L["82"]["CornerRadius"] = UDim.new(1, 0);
+G2L["8d"] = Instance.new("UICorner", G2L["8c"]);
+G2L["8d"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIStroke
-G2L["83"] = Instance.new("UIStroke", G2L["80"]);
-G2L["83"]["Transparency"] = 0.75;
-G2L["83"]["Thickness"] = 2;
-G2L["83"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["8e"] = Instance.new("UIStroke", G2L["8b"]);
+G2L["8e"]["Transparency"] = 0.75;
+G2L["8e"]["Thickness"] = 2;
+G2L["8e"]["Color"] = Color3.fromRGB(54, 54, 54);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UICorner
-G2L["84"] = Instance.new("UICorner", G2L["80"]);
-G2L["84"]["CornerRadius"] = UDim.new(1, 0);
+G2L["8f"] = Instance.new("UICorner", G2L["8b"]);
+G2L["8f"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.UIAspectRatioConstraint
-G2L["85"] = Instance.new("UIAspectRatioConstraint", G2L["80"]);
-G2L["85"]["AspectRatio"] = 2;
+G2L["90"] = Instance.new("UIAspectRatioConstraint", G2L["8b"]);
+G2L["90"]["AspectRatio"] = 2;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
-G2L["86"] = Instance.new("LocalScript", G2L["80"]);
+G2L["91"] = Instance.new("LocalScript", G2L["8b"]);
 
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript.ToggleSfx
+G2L["92"] = Instance.new("Sound", G2L["91"]);
+G2L["92"]["Name"] = [[ToggleSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["92"]["SoundId"] = [[rbxassetid://139800881181209]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.TextLabel
-G2L["87"] = Instance.new("TextLabel", G2L["7f"]);
-G2L["87"]["TextWrapped"] = true;
-G2L["87"]["BorderSizePixel"] = 0;
-G2L["87"]["TextSize"] = 14;
-G2L["87"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["87"]["TextScaled"] = true;
-G2L["87"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["87"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["87"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["87"]["BackgroundTransparency"] = 1;
-G2L["87"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
-G2L["87"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["87"]["Text"] = [[Save Toggles]];
-G2L["87"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
+G2L["93"] = Instance.new("TextLabel", G2L["8a"]);
+G2L["93"]["TextWrapped"] = true;
+G2L["93"]["BorderSizePixel"] = 0;
+G2L["93"]["TextSize"] = 14;
+G2L["93"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["93"]["TextScaled"] = true;
+G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["BackgroundTransparency"] = 1;
+G2L["93"]["Size"] = UDim2.new(0.73591, 0, 0.65854, 0);
+G2L["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["93"]["Text"] = [[Save Toggles]];
+G2L["93"]["Position"] = UDim2.new(0.04253, 0, 0.15556, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.UICorner
-G2L["88"] = Instance.new("UICorner", G2L["1a"]);
-G2L["88"]["CornerRadius"] = UDim.new(0.033, 0);
+G2L["94"] = Instance.new("UICorner", G2L["1a"]);
+G2L["94"]["CornerRadius"] = UDim.new(0.033, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.UIStroke
-G2L["89"] = Instance.new("UIStroke", G2L["1a"]);
-G2L["89"]["Transparency"] = 0.75;
-G2L["89"]["Thickness"] = 2;
-G2L["89"]["Color"] = Color3.fromRGB(54, 54, 54);
-G2L["89"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["95"] = Instance.new("UIStroke", G2L["1a"]);
+G2L["95"]["Transparency"] = 0.75;
+G2L["95"]["Thickness"] = 2;
+G2L["95"]["Color"] = Color3.fromRGB(54, 54, 54);
+G2L["95"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.main
-G2L["8a"] = Instance.new("LocalScript", G2L["2"]);
-G2L["8a"]["Name"] = [[main]];
+G2L["96"] = Instance.new("LocalScript", G2L["2"]);
+G2L["96"]["Name"] = [[main]];
+
+
+-- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.main.CloseSfx
+G2L["97"] = Instance.new("Sound", G2L["96"]);
+G2L["97"]["Name"] = [[CloseSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["97"]["SoundId"] = [[rbxassetid://8968249849]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.drag
-G2L["8b"] = Instance.new("LocalScript", G2L["2"]);
-G2L["8b"]["Name"] = [[drag]];
+G2L["98"] = Instance.new("LocalScript", G2L["2"]);
+G2L["98"]["Name"] = [[drag]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.ImageLabel
-G2L["8c"] = Instance.new("ImageLabel", G2L["2"]);
-G2L["8c"]["ZIndex"] = 0;
-G2L["8c"]["BorderSizePixel"] = 0;
-G2L["8c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8c"]["ImageTransparency"] = 0.25;
-G2L["8c"]["Image"] = [[rbxassetid://112982629327743]];
-G2L["8c"]["Size"] = UDim2.new(1.54754, 0, 1.31621, 0);
-G2L["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8c"]["BackgroundTransparency"] = 1;
-G2L["8c"]["Rotation"] = 25;
-G2L["8c"]["Position"] = UDim2.new(-0.3096, 0, -0.19321, 0);
+G2L["99"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["99"]["ZIndex"] = 0;
+G2L["99"]["BorderSizePixel"] = 0;
+G2L["99"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["99"]["ImageTransparency"] = 0.25;
+G2L["99"]["Image"] = [[rbxassetid://112982629327743]];
+G2L["99"]["Size"] = UDim2.new(1.54754, 0, 1.31621, 0);
+G2L["99"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["99"]["BackgroundTransparency"] = 1;
+G2L["99"]["Rotation"] = 25;
+G2L["99"]["Position"] = UDim2.new(-0.3096, 0, -0.19321, 0);
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.tabs
-G2L["8d"] = Instance.new("LocalScript", G2L["2"]);
-G2L["8d"]["Name"] = [[tabs]];
+G2L["9a"] = Instance.new("LocalScript", G2L["2"]);
+G2L["9a"]["Name"] = [[tabs]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.savedata
-G2L["8e"] = Instance.new("LocalScript", G2L["2"]);
-G2L["8e"]["Name"] = [[savedata]];
+G2L["9b"] = Instance.new("LocalScript", G2L["2"]);
+G2L["9b"]["Name"] = [[savedata]];
 
 
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.OSpeed.toggle.LocalScript
@@ -1318,6 +1409,7 @@ local script = G2L["24"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1346,8 +1438,8 @@ local script = G2L["24"];
 end;
 task.spawn(C_24);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.AJump.toggle.LocalScript
-local function C_2e()
-local script = G2L["2e"];
+local function C_2f()
+local script = G2L["2f"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1375,6 +1467,7 @@ local script = G2L["2e"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1401,10 +1494,10 @@ local script = G2L["2e"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_2e);
+task.spawn(C_2f);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.NAnims.toggle.LocalScript
-local function C_37()
-local script = G2L["37"];
+local function C_39()
+local script = G2L["39"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1432,6 +1525,7 @@ local script = G2L["37"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1458,10 +1552,10 @@ local script = G2L["37"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_37);
+task.spawn(C_39);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.KILLER_ESP.toggle.LocalScript
-local function C_40()
-local script = G2L["40"];
+local function C_43()
+local script = G2L["43"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1489,6 +1583,7 @@ local script = G2L["40"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1515,10 +1610,10 @@ local script = G2L["40"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_40);
+task.spawn(C_43);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.SURVIVOR_ESP.toggle.LocalScript
-local function C_49()
-local script = G2L["49"];
+local function C_4d()
+local script = G2L["4d"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1546,6 +1641,7 @@ local script = G2L["49"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1572,10 +1668,10 @@ local script = G2L["49"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_49);
+task.spawn(C_4d);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.1.GEN_ESP.toggle.LocalScript
-local function C_52()
-local script = G2L["52"];
+local function C_57()
+local script = G2L["57"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1603,6 +1699,7 @@ local script = G2L["52"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1629,10 +1726,10 @@ local script = G2L["52"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_52);
+task.spawn(C_57);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.FPSBoost.TextButton.LocalScript
-local function C_59()
-local script = G2L["59"];
+local function C_5f()
+local script = G2L["5f"];
 	local function Optimize()
 		local players = game:GetService("Players")
 		local rs = game:GetService("RunService")
@@ -1663,13 +1760,14 @@ local script = G2L["59"];
 	end
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		script.ClickSfx:Play()
 		Optimize()
 	end)
 end;
-task.spawn(C_59);
+task.spawn(C_5f);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.ForceTimer.TextButton.LocalScript
-local function C_5e()
-local script = G2L["5e"];
+local function C_65()
+local script = G2L["65"];
 	local function Func()
 		local Players = game:GetService("Players")
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -1707,13 +1805,14 @@ local script = G2L["5e"];
 	end
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		script.ClickSfx:Play()
 		Func()
 	end)
 end;
-task.spawn(C_5e);
+task.spawn(C_65);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.HMalice.toggle.LocalScript
-local function C_67()
-local script = G2L["67"];
+local function C_6f()
+local script = G2L["6f"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1741,6 +1840,7 @@ local script = G2L["67"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1767,10 +1867,10 @@ local script = G2L["67"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_67);
+task.spawn(C_6f);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.2.DBarriers.toggle.LocalScript
-local function C_70()
-local script = G2L["70"];
+local function C_79()
+local script = G2L["79"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1798,6 +1898,7 @@ local script = G2L["70"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1824,10 +1925,10 @@ local script = G2L["70"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_70);
+task.spawn(C_79);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.TAnims.toggle.LocalScript
-local function C_7d()
-local script = G2L["7d"];
+local function C_87()
+local script = G2L["87"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1855,6 +1956,7 @@ local script = G2L["7d"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1881,10 +1983,10 @@ local script = G2L["7d"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_7d);
+task.spawn(C_87);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.CanvasGroup.ScrollingFrame.Settings.SaveToggles.toggle.LocalScript
-local function C_86()
-local script = G2L["86"];
+local function C_91()
+local script = G2L["91"];
 	repeat wait() until _G.VortexHub and _G.VortexHub.Loaded
 	
 	local button = script.Parent.SliderButton
@@ -1912,6 +2014,7 @@ local script = G2L["86"];
 	
 	script.Parent.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			script.ToggleSfx:Play()
 			enabled = not enabled
 			updateGlobal()
 			apply(enabled)
@@ -1938,10 +2041,10 @@ local script = G2L["86"];
 	end
 	apply(enabled)
 end;
-task.spawn(C_86);
+task.spawn(C_91);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.main
-local function C_8a()
-local script = G2L["8a"];
+local function C_96()
+local script = G2L["96"];
 	_G.VortexHub = _G.VortexHub or {}
 	
 	repeat wait() until game:IsLoaded()
@@ -2027,7 +2130,8 @@ local script = G2L["8a"];
 	end)
 	
 	close.MouseButton1Click:Connect(function()
-		ts:Create(gui, TweenInfo.new(.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out), {Size = UDim2.fromScale(0,0)}):Play()
+		script.CloseSfx:Play()
+		ts:Create(gui, TweenInfo.new(.35, Enum.EasingStyle.Back, Enum.EasingDirection.In), {Size = UDim2.fromScale(0,0)}):Play()
 		_G.VortexHub.Loaded = false
 		task.wait(.5)
 		gui:Destroy()
@@ -2356,7 +2460,7 @@ local script = G2L["8a"];
 	
 		workspace.Map.Ingame.DescendantAdded:Connect(function(v)
 			if v:IsA("BasePart") then
-				if v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly" or v.Transparency >= 0.9 then
+				if v.Name == "Invisible" or v.Name == "Inviisble" or v.Name == "KillerOnly" then
 					v.CanCollide = not (_G.VortexHub.DBarriers == true)
 				end
 			end
@@ -2458,10 +2562,10 @@ local script = G2L["8a"];
 		end)
 	end
 end;
-task.spawn(C_8a);
+task.spawn(C_96);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.drag
-local function C_8b()
-local script = G2L["8b"];
+local function C_98()
+local script = G2L["98"];
 	local frame = script.Parent
 	local topbar = frame.TopBar
 	local uis = game:GetService("UserInputService")
@@ -2523,10 +2627,10 @@ local script = G2L["8b"];
 		frame.Position = UDim2.new(s.X, 0, s.Y, 0)
 	end)
 end;
-task.spawn(C_8b);
+task.spawn(C_98);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.tabs
-local function C_8d()
-local script = G2L["8d"];
+local function C_9a()
+local script = G2L["9a"];
 	local ogsize = script.Parent.Size
 	script.Parent.Size = UDim2.new()
 	
@@ -2582,10 +2686,10 @@ local script = G2L["8d"];
 		end
 	end
 end;
-task.spawn(C_8d);
+task.spawn(C_9a);
 -- ReplicatedStorage.ASTRALHUBFORSAKEN.CanvasGroup.savedata
-local function C_8e()
-local script = G2L["8e"];
+local function C_9b()
+local script = G2L["9b"];
 	if game["Run Service"]:IsStudio() then return end
 	
 	local folder = "VHUB_DATA"
@@ -2649,6 +2753,6 @@ local script = G2L["8e"];
 		saveData()
 	until _G.VortexHub.Loaded == false
 end;
-task.spawn(C_8e);
+task.spawn(C_9b);
 
 return G2L["1"], require;
