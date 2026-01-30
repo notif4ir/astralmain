@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 24 | Scripts: 3 | Modules: 0 | Tags: 0
+-- Instances: 27 | Scripts: 3 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ASTRALHUBKEYSYSTEM
@@ -51,7 +51,7 @@ G2L["5"]["Image"] = [[rbxassetid://10152135063]];
 G2L["5"]["Size"] = UDim2.new(0.07606, 0, 0.72973, 0);
 G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5"]["Name"] = [[CloseButton]];
-G2L["5"]["Position"] = UDim2.new(0.90423, 0, 0.16216, 0);
+G2L["5"]["Position"] = UDim2.new(0.91313, 0, 0.16216, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.TopBar.CloseButton.UIAspectRatioConstraint
@@ -70,10 +70,10 @@ G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["7"]["BackgroundTransparency"] = 1;
-G2L["7"]["Size"] = UDim2.new(0.76056, 0, 0.72973, 0);
+G2L["7"]["Size"] = UDim2.new(0.7754, 0, 0.72973, 0);
 G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["7"]["Text"] = [[Astral Hub | Key System]];
-G2L["7"]["Position"] = UDim2.new(0.12676, 0, 0.16216, 0);
+G2L["7"]["Position"] = UDim2.new(0.11193, 0, 0.16216, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.TopBar.TextLabel.UIStroke
@@ -87,7 +87,7 @@ G2L["9"] = Instance.new("ImageLabel", G2L["4"]);
 G2L["9"]["BorderSizePixel"] = 0;
 G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9"]["Image"] = [[rbxassetid://111907488173054]];
-G2L["9"]["Size"] = UDim2.new(0.08732, 0, 0.83784, 0);
+G2L["9"]["Size"] = UDim2.new(0.06952, 0, 0.83784, 0);
 G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9"]["BackgroundTransparency"] = 1;
 G2L["9"]["Position"] = UDim2.new(0.02254, 0, 0.08108, 0);
@@ -160,76 +160,94 @@ G2L["10"]["Name"] = [[CheckButton]];
 G2L["10"]["Position"] = UDim2.new(0.01451, 0, 0.15555, 0);
 
 
--- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Buttons.CheckButton.LocalScript
-G2L["11"] = Instance.new("LocalScript", G2L["10"]);
-
-
-
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Buttons.CheckButton.UICorner
-G2L["12"] = Instance.new("UICorner", G2L["10"]);
-G2L["12"]["CornerRadius"] = UDim.new(0.3, 0);
+G2L["11"] = Instance.new("UICorner", G2L["10"]);
+G2L["11"]["CornerRadius"] = UDim.new(0.3, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Buttons.UICorner
-G2L["13"] = Instance.new("UICorner", G2L["f"]);
-G2L["13"]["CornerRadius"] = UDim.new(0.3, 0);
+G2L["12"] = Instance.new("UICorner", G2L["f"]);
+G2L["12"]["CornerRadius"] = UDim.new(0.3, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Key
-G2L["14"] = Instance.new("Frame", G2L["2"]);
-G2L["14"]["BorderSizePixel"] = 0;
-G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["14"]["Size"] = UDim2.new(0.93527, 0, 0.19286, 0);
-G2L["14"]["Position"] = UDim2.new(0.0374, 0, 0.3579, 0);
-G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["14"]["Name"] = [[Key]];
-G2L["14"]["LayoutOrder"] = 1;
-G2L["14"]["BackgroundTransparency"] = 0.9;
+G2L["13"] = Instance.new("Frame", G2L["2"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["Size"] = UDim2.new(0.93527, 0, 0.19286, 0);
+G2L["13"]["Position"] = UDim2.new(0.0374, 0, 0.3579, 0);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Name"] = [[Key]];
+G2L["13"]["LayoutOrder"] = 1;
+G2L["13"]["BackgroundTransparency"] = 0.9;
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Key.UICorner
-G2L["15"] = Instance.new("UICorner", G2L["14"]);
-G2L["15"]["CornerRadius"] = UDim.new(0.25, 0);
+G2L["14"] = Instance.new("UICorner", G2L["13"]);
+G2L["14"]["CornerRadius"] = UDim.new(0.25, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Key.TextLabel
-G2L["16"] = Instance.new("TextLabel", G2L["14"]);
-G2L["16"]["TextWrapped"] = true;
-G2L["16"]["BorderSizePixel"] = 0;
-G2L["16"]["TextSize"] = 14;
-G2L["16"]["TextTransparency"] = 0.5;
-G2L["16"]["TextScaled"] = true;
-G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["16"]["BackgroundTransparency"] = 1;
-G2L["16"]["Size"] = UDim2.new(0.999, 0, 0.647, 0);
-G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16"]["Text"] = [[<Enter Key Here>]];
-G2L["16"]["Position"] = UDim2.new(0, 0, 0.169, 0);
+G2L["15"] = Instance.new("TextLabel", G2L["13"]);
+G2L["15"]["TextWrapped"] = true;
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["TextSize"] = 14;
+G2L["15"]["TextTransparency"] = 0.5;
+G2L["15"]["TextScaled"] = true;
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15"]["BackgroundTransparency"] = 1;
+G2L["15"]["Size"] = UDim2.new(0.999, 0, 0.647, 0);
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["Text"] = [[<Enter Key Here>]];
+G2L["15"]["Position"] = UDim2.new(0, 0, 0.169, 0);
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Key.TextBox
-G2L["17"] = Instance.new("TextBox", G2L["14"]);
-G2L["17"]["CursorPosition"] = -1;
-G2L["17"]["BorderSizePixel"] = 0;
-G2L["17"]["TextWrapped"] = true;
-G2L["17"]["TextTransparency"] = 1;
-G2L["17"]["TextSize"] = 14;
-G2L["17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17"]["TextScaled"] = true;
-G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic);
-G2L["17"]["PlaceholderText"] = [[<Enter Your Key Here>]];
-G2L["17"]["Size"] = UDim2.new(0.99932, 0, 0.64664, 0);
-G2L["17"]["Position"] = UDim2.new(-0, 0, 0.16869, 0);
-G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17"]["Text"] = [[]];
-G2L["17"]["BackgroundTransparency"] = 1;
+G2L["16"] = Instance.new("TextBox", G2L["13"]);
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextWrapped"] = true;
+G2L["16"]["TextTransparency"] = 1;
+G2L["16"]["TextSize"] = 14;
+G2L["16"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["TextScaled"] = true;
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic);
+G2L["16"]["PlaceholderText"] = [[<Enter Your Key Here>]];
+G2L["16"]["Size"] = UDim2.new(0.99932, 0, 0.64664, 0);
+G2L["16"]["Position"] = UDim2.new(-0, 0, 0.16869, 0);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Text"] = [[]];
+G2L["16"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.LocalScript
-G2L["18"] = Instance.new("LocalScript", G2L["2"]);
+G2L["17"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.LocalScript.ClickSfx
+G2L["18"] = Instance.new("Sound", G2L["17"]);
+G2L["18"]["Name"] = [[ClickSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["18"]["SoundId"] = [[rbxassetid://88442833509532]];
+
+
+-- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.anims
+G2L["19"] = Instance.new("LocalScript", G2L["2"]);
+G2L["19"]["Name"] = [[anims]];
+
+
+-- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.anims.CloseSfx
+G2L["1a"] = Instance.new("Sound", G2L["19"]);
+G2L["1a"]["Name"] = [[CloseSfx]];
+-- [ERROR] cannot convert AudioContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["1a"]["SoundId"] = [[rbxassetid://8968249849]];
+
+
+-- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.UIScale
+G2L["1b"] = Instance.new("UIScale", G2L["2"]);
 
 
 
@@ -298,46 +316,11 @@ local script = G2L["d"];
 	end)
 end;
 task.spawn(C_d);
--- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.Buttons.CheckButton.LocalScript
-local function C_11()
-local script = G2L["11"];
-	local function Optimize()
-		local players = game:GetService("Players")
-		local rs = game:GetService("RunService")
-	
-		local function fixMaterials(obj)
-			if obj:IsA("BasePart") then
-				obj.Material = Enum.Material.SmoothPlastic
-				pcall(function() obj.MaterialVariant = "" end)
-			end
-		end
-	
-		local function scan(a)
-			for _, v in ipairs(a:GetDescendants()) do
-				fixMaterials(v)
-			end
-		end
-	
-		scan(game)
-	
-		game.DescendantAdded:Connect(function(v)
-			fixMaterials(v)
-		end)
-	
-		settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
-		workspace.StreamingEnabled = true
-		workspace.InterpolationThrottling = Enum.InterpolationThrottlingMode.Enabled
-		players.CharacterAutoLoads = true
-	end
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		Optimize()
-	end)
-end;
-task.spawn(C_11);
 -- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.LocalScript
-local function C_18()
-local script = G2L["18"];
+local function C_17()
+local script = G2L["17"];
+	repeat wait() until game:IsLoaded()
+	
 	local frame = script.Parent
 	local key = frame.Key
 	local buttons = frame.Buttons
@@ -346,7 +329,7 @@ local script = G2L["18"];
 	local RunService = game:GetService("RunService")
 	local URL = "https://raw.githubusercontent.com/notif4ir/astralmain/refs/heads/main/astralkeys.json"
 	
-	local SUSPEND_DURATION = 5
+	local SUSPEND_DURATION = 3
 	local suspendUntil = 0
 	
 	local function bulletsFor(len)
@@ -489,6 +472,7 @@ local script = G2L["18"];
 	end
 	
 	buttons.CheckButton.MouseButton1Click:Connect(function()
+		script.ClickSfx:Play()
 		local entered = key.TextBox.Text
 		key.TextLabel.Text = "Checking..."
 		suspendUntil = tick() + SUSPEND_DURATION
@@ -538,6 +522,25 @@ local script = G2L["18"];
 		onKeyAccepted()
 	end)
 end;
-task.spawn(C_18);
+task.spawn(C_17);
+-- StarterGui.ASTRALHUBKEYSYSTEM.CanvasGroup.anims
+local function C_19()
+local script = G2L["19"];
+	local uiscale = script.Parent.UIScale
+	uiscale.Scale=0
+	
+	repeat wait() until game:IsLoaded()
+	
+	game:GetService("TweenService"):Create(uiscale,TweenInfo.new(1,Enum.EasingStyle.Exponential,Enum.EasingDirection.Out),{Scale = 1}):Play()
+	
+	script.Parent.TopBar.CloseButton.MouseButton1Click:Connect(function()
+		script.CloseSfx:Play()
+		game:GetService("TweenService"):Create(uiscale,TweenInfo.new(.35,Enum.EasingStyle.Back,Enum.EasingDirection.In),{Scale = 0}):Play()
+		task.delay(.75, function()
+			script.Parent.Parent:Destroy()
+		end)
+	end)
+end;
+task.spawn(C_19);
 
 return G2L["1"], require;
